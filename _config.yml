@@ -24,3 +24,7 @@ markdown: kramdown
 permalink: pretty
 
 include: ['br_pages']
+
+# Plugins
+gems:
+  - jekyll-redirect-from
