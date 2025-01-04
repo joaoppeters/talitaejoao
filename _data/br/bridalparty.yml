@@ -1,55 +1,56 @@
-- name: Name
+- name: Henrique e Larissa
   pic: 1
-  position: Padrinho
 
-- name: Name
+- name: Gustavo
   pic: 2
-  position: Madrinha
 
-- name: Name
+- name: Pedro H. Peters
   pic: 3
-  position: Padrinho
 
-- name: Name
+- name: Vini e Marília
   pic: 4
-  position: Madrinha
 
-- name: Name
+- name: Lu
   pic: 5
-  position: Padrinho
 
-- name: Name
+- name: Lalá
   pic: 6
-  position: Madrinha
 
-- name: Name
+- name: Marimar e Nalaura
   pic: 7
-  position: Padrinho
 
-- name: Name
+- name: Guto e Camilinha
   pic: 8
-  position: Madrinha
 
-- name: Name
+- name: Furlan e Yara
   pic: 9
-  position: Padrinho
 
-- name: Name
+- name: Marília
   pic: 10
-  position: Madrinha
 
-- name: Name
+- name: Nati
   pic: 11
-  position: Padrinho
 
-- name: Name
+- name: Marcela
   pic: 12
-  position: Madrinha
 
-- name: Name
+- name: Murilo
   pic: 13
-  position: Padrinho
 
-- name: Name
+- name: Dimaghi
   pic: 14
-  position: Madrinha
+
+- name: Harim
+  pic: 15
+
+- name: Mateusin e Marina
+  pic: 16
+
+- name: Geraldo e Camila
+  pic: 17
+
+- name: Vilela e Bela
+  pic: 18
+
+- name: Romulo e Gabi
+  pic: 18
