@@ -1,23 +1,55 @@
 - name: Name
   pic: 1
-  position: Role
+  position: Madrinha
 
 - name: Name
   pic: 2
-  position: Role
+  position: Madrinha
 
 - name: Name
   pic: 3
-  position: Role
+  position: Padrinho
 
 - name: Name
   pic: 4
-  position: Role
+  position: Madrinha
 
 - name: Name
   pic: 5
-  position: Role
+  position: Padrinho
 
 - name: Name
   pic: 6
-  position: Role
+  position: Madrinha
+
+  - name: Name
+  pic: 7
+  position: Padrinho
+
+- name: Name
+  pic: 8
+  position: Madrinha
+
+- name: Name
+  pic: 9
+  position: Padrinho
+
+- name: Name
+  pic: 10
+  position: Madrinha
+
+- name: Name
+  pic: 11
+  position: Padrinho
+
+- name: Name
+  pic: 12
+  position: Madrinha
+
+  - name: Name
+  pic: 13
+  position: Padrinho
+
+- name: Name
+  pic: 14
+  position: Madrinha
