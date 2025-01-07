@@ -1,23 +1,56 @@
-- name: Name
+- name: Henrique e Lari
   pic: 1
-  position: Role
 
-- name: Name
+- name: Gustavo
   pic: 2
-  position: Role
 
-- name: Name
+- name: Pedro H. Peters
   pic: 3
-  position: Role
 
-- name: Name
+- name: Vini e Marília
   pic: 4
-  position: Role
 
-- name: Name
+- name: Lu
   pic: 5
-  position: Role
 
-- name: Name
+- name: Lalá
   pic: 6
-  position: Role
+
+- name: Nalaura e Marimar
+  pic: 7
+
+- name: Camilinha e Guto
+  pic: 8
+
+- name: Yara e Fur
+  pic: 9
+
+- name: Marília
+  pic: 10
+
+- name: Nati
+  pic: 11
+
+- name: Marcela
+  pic: 12
+
+- name: Murilo
+  pic: 13
+
+- name: Dimaghi
+  pic: 14
+
+- name: Harim
+  pic: 15
+
+- name: Mateusin e Marina
+  pic: 16
+
+- name: Camila e Geraldo
+  pic: 17
+
+- name: Vilela e Bela
+  pic: 18
+
+- name: Gabi e Romulo
+  pic: 18

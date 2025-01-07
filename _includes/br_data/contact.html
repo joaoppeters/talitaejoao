@@ -11,8 +11,8 @@
             data: $(this).serialize(),
             success: function(response){
                 if(response.status == "success"){
-                    alert('Thank you. Your message has been sent.');
-                    window.location.href = 'https://alicelepissier.com/talitaejoao/en/#contact';
+                    alert('Obrigado por enviar sua mensagem.');
+                    window.location.href = 'https://joaoppeters.github.io/talitaejoao/br/#contact';
                 }else{
                     alert("An error occured: " + response.message);
                 }
@@ -25,35 +25,35 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Contact Us</h2>
-                <h3 class="section-subheading text-muted">Or send us an email at <a href="mailto:petsgetsmarried@gmail.com">petsgetmarried@gmail.com</a>.</h3>
+                <h2 class="section-heading">Confirme Já Sua Presença Aqui</h2>
+                <h3 class="section-subheading text-muted">Ou nos mande um email <a href="mailto:talitaejoaopeters@gmail.com">talitaejoaopeters@gmail.com</a>.</h3>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-12">
                 <!-- Create your own form using FormCarry: https://formcarry.com/ -->
-                <form class="ajaxForm" action="YOUR_FORM_CARRY_ENDPOINT" method="POST">
+                <form class="ajaxForm" action="https://formcarry.com/s/ak_gC3UXGKA" method="POST">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="control-group form-group">
-                                <input type="text" class="form-control" placeholder="Your Name" id="name" name="name" required data-validation-required-message="Please enter your name.">
+                                <input type="text" class="form-control" placeholder="Seu Nome" id="name" name="name" required data-validation-required-message="Seu nome.">
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group form-group">
-                                <input type="email" class="form-control" placeholder="Your Email" id="email" name="email" required data-validation-required-message="Please enter your email address.">
+                                <input type="email" class="form-control" placeholder="Seu Email" id="email" name="email" required data-validation-required-message="Seu email.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="control-group form-group">
-                                <textarea class="form-control" placeholder="Your Message" id="message" name="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <textarea class="form-control" placeholder="Sua Mensagem" id="message" name="message" required data-validation-required-message="Mande sua mensagem."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="clearfix"></div>
                         <div class="col-lg-12 text-center">
                             <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">Send Message</button>
+                            <button type="submit" class="btn btn-xl">Confirmar Presença</button>
                         </div>
                     </div>
                 </form>

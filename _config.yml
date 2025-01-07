@@ -1,9 +1,9 @@
 url: https://talitaejoao.com
-#baseurl: /talitaejoao
+baseurl: /talitaejoao
 
 # Site settings
 title: Talita & João Pedro
-email: talitaejoao@gmail.com
+email: talitaejoaopeters@gmail.com
 description: "Template for a wedding website."
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -24,3 +24,7 @@ markdown: kramdown
 permalink: pretty
 
 include: ['br_pages']
+
+# Plugins
+gems:
+  - jekyll-redirect-from
