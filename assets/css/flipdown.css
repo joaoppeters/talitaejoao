@@ -1,0 +1,30 @@
+/* General FlipDown Styling */
+#flipdown {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  /* FlipDown Rotor Colors */
+  .flipdown .rotor {
+    background-color: #1f1f1f; /* Dark rotor background */
+    border: 2px solid #444; /* Subtle border */
+  }
+  
+  .flipdown .rotor .rotor-leaf {
+    background-color: #333; /* Slightly lighter leaf */
+    color: #00e676; /* Bright green text for contrast */
+  }
+  
+  /* FlipDown Segment Headings */
+  .flipdown .rotor-group-heading {
+    color: #00e676; /* Bright green for headings */
+    font-size: 1rem;
+  }
+  
+  /* Custom Message Styling */
+  #message {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #00e676; /* Bright green for the message */
+  }
+  
