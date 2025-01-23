@@ -6,15 +6,12 @@ body {
     padding: 0;
   }
   
-  /* General Container Styling */
-  #countdown-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  /* Styling for the new section */
+  #countdown-section {
+    padding: 40px 0; /* Add padding for spacing around the section */
+    background-color: #ffffff; /* White background for the countdown section */
     text-align: center;
-    margin-top: 40px;
-    width: 100%; /* Ensure the container takes full width */
+    width: 100%;
   }
   
   /* Title Styling */
@@ -39,16 +36,22 @@ body {
     justify-content: center;
   }
   
-  /* FlipDown Rotor Colors */
+  /* Fixing dull bottom part of the countdown */
   .flipdown .rotor {
-    background-color: #1f1f1f; /* Dark rotor background */
+    background-color: #2c2c2c; /* Darker background color for better contrast */
     border: 2px solid #444; /* Subtle border */
     height: 120px; /* Increased height for better visibility of numbers */
   }
   
   .flipdown .rotor .rotor-leaf {
-    background-color: #333; /* Slightly lighter leaf */
+    background-color: #333; /* Slightly lighter leaf for better contrast */
     color: #00e676; /* Bright green text for contrast */
+  }
+  
+  .flipdown .rotor .rotor-leaf span {
+    color: #00e676; /* Bright green numbers for contrast */
+    font-size: 3rem; /* Adjust the font size for better visibility */
+    font-weight: bold;
   }
   
   /* FlipDown Segment Headings */
@@ -62,12 +65,5 @@ body {
     font-size: 1.5em;
     margin-top: 20px;
     color: #00e676; /* Bright green for the message */
-  }
-  
-  /* Ensure numbers are visible and properly aligned */
-  .flipdown .rotor .rotor-leaf span {
-    color: #00e676; /* Ensure the numbers are bright and visible */
-    font-size: 3rem; /* Adjust the font size for better visibility */
-    font-weight: bold;
   }
   
