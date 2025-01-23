@@ -1,80 +1,154 @@
-/* Set the background color for the whole page */
-body {
-    background-color: #f0f0f0; /* Lighter gray background */
-    font-family: 'Open Sans', sans-serif; /* Modern and clean font */
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Styling for the new section */
-  #countdown-section {
-    padding: 50px 0; /* Increased padding for better spacing */
-    background-color: #e0e0e0; /* Slightly lighter gray background */
-    text-align: center;
+/* Importando a fonte da página, ajuste conforme necessário */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Tema do contador */
+.flipdown {
+  font-family: 'Roboto', sans-serif; /* Usando a fonte da página */
+  font-weight: bold;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  overflow: visible;
+  height: 120px;
+}
+
+.flipdown .rotor-group {
+  position: relative;
+  float: left;
+  padding-right: 30px;
+}
+
+.flipdown .rotor-group:last-child {
+  padding-right: 0;
+}
+
+.flipdown .rotor-group-heading:before {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.flipdown .rotor {
+  position: relative;
+  float: left;
+  width: 60px;
+  height: 90px;
+  margin: 0px 5px;
+  border-radius: 4px;
+  font-size: 4rem;
+  text-align: center;
+  perspective: 200px;
+}
+
+.flipdown .rotor-top,
+.flipdown .rotor-bottom {
+  overflow: hidden;
+  position: absolute;
+  width: 60px;
+  height: 45px;
+}
+
+.flipdown .rotor-leaf {
+  z-index: 1;
+  position: absolute;
+  width: 60px;
+  height: 90px;
+  transform-style: preserve-3d;
+  transition: transform 0s;
+}
+
+.flipdown .rotor-leaf.flipped {
+  transform: rotateX(-180deg);
+  transition: all 0.5s ease-in-out;
+}
+
+.flipdown .rotor-leaf-front,
+.flipdown .rotor-leaf-rear {
+  overflow: hidden;
+  position: absolute;
+  width: 60px;
+  height: 45px;
+  margin: 0;
+  transform: rotateX(0deg);
+  backface-visibility: hidden;
+}
+
+.flipdown .rotor-leaf-front {
+  line-height: 90px;
+  border-radius: 4px 4px 0 0;
+}
+
+.flipdown .rotor-leaf-rear {
+  line-height: 0;
+  border-radius: 0 0 4px 4px;
+  transform: rotateX(-180deg);
+}
+
+.flipdown .rotor-top {
+  line-height: 90px;
+  border-radius: 4px 4px 0 0;
+}
+
+.flipdown .rotor-bottom {
+  bottom: 0;
+  line-height: 0;
+  border-radius: 0 0 4px 4px;
+}
+
+.flipdown .rotor:after {
+  content: '';
+  z-index: 2;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 60px;
+  height: 45px;
+  border-radius: 0 0 4px 4px;
+}
+
+/* Estilo para o título */
+.countdown-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+/* Estilo para a seção */
+.countdown-section {
+  background-color: #f5f5f5;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Ajustes de mídia para telas menores */
+@media (max-width: 550px) {
+  .flipdown {
     width: 100%;
+    height: 80px;
   }
-  
-  /* Title Styling */
-  #countdown-title {
-    margin-bottom: 30px;
-  }
-  
-  #countdown-title h2 {
-    font-size: 2.5rem; /* Slightly larger title */
-    font-weight: bold;
-    color: #333; /* Darker gray for better contrast */
-    margin: 0;
-  }
-  
-  /* General FlipDown Styling */
-  #flipdown {
-    width: 100%;
-    max-width: 100%;
-    margin: 20px auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-  }
-  
-  /* Fixing dull bottom part of the countdown */
+
   .flipdown .rotor {
-    background-color: #222; /* Darker gray for better contrast */
-    border: 2px solid #444;
-    height: 160px; /* Increased height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 120px; /* Increased width */
-    border-radius: 5px; /* Added rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    font-size: 2.2rem;
+    margin-right: 3px;
   }
-  
-  .flipdown .rotor .rotor-leaf {
-    background-color: #333;
-    color: #009688; /* Teal color for better visual appeal */
-    font-size: 4rem; /* Larger font size for better readability */
-    font-weight: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+  .flipdown .rotor, .flipdown .rotor-leaf, .flipdown .rotor-leaf-front, .flipdown .rotor-leaf-rear, .flipdown .rotor-top, .flipdown .rotor-bottom, .flipdown .rotor:after {
+    width: 40px;
   }
-  
-  .flipdown .rotor .rotor-leaf span {
-    color: #009688; /* Teal color */
-    font-size: 4rem;
-    font-weight: bold;
+
+  .flipdown .rotor-group {
+    padding-right: 20px;
   }
-  
-  /* FlipDown Segment Headings */
-  .flipdown .rotor-group-heading {
-    color: #009688;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+
+  .flipdown .rotor-group:last-child {
+    padding-right: 0;
   }
-  
-  /* Custom Message Styling */
-  #message {
-    font-size: 1.8em;
-    margin-top: 30px;
-    color: #009688;
+
+  .flipdown .rotor-group-heading:before {
+    font-size: 0.8rem;
+    height: 20px;
+    line-height: 20px;
   }
+}
