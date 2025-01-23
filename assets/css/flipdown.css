@@ -1,5 +1,27 @@
-/* General FlipDown Styling */
-#flipdown {
+/* General Container Styling */
+#countdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  /* Title Styling */
+  #countdown-title {
+    margin-bottom: 20px;
+  }
+  
+  #countdown-title h2 {
+    font-size: 2rem; /* Increased font size */
+    font-weight: bold;
+    color: #00e676; /* Bright green for the title */
+    margin: 0;
+  }
+  
+  /* General FlipDown Styling */
+  #flipdown {
     margin: 20px auto;
     max-width: 600px;
     text-align: center;
@@ -9,6 +31,7 @@
   .flipdown .rotor {
     background-color: #1f1f1f; /* Dark rotor background */
     border: 2px solid #444; /* Subtle border */
+    height: 120px; /* Increased height for better visibility of numbers */
   }
   
   .flipdown .rotor .rotor-leaf {
@@ -29,10 +52,10 @@
     color: #00e676; /* Bright green for the message */
   }
   
-  /* Ensure numbers are visible */
+  /* Ensure numbers are visible and properly aligned */
   .flipdown .rotor .rotor-leaf span {
     color: #00e676; /* Ensure the numbers are bright and visible */
-    font-size: 2rem; /* Adjust the font size */
+    font-size: 3rem; /* Adjust the font size for better visibility */
     font-weight: bold;
   }
   
