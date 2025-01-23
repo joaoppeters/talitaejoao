@@ -1,11 +1,20 @@
-/* General Container Styling */
-#countdown-container {
+/* Set the background color for the whole page */
+body {
+    background-color: #f4f4f4; /* Light gray background color */
+    font-family: Arial, sans-serif; /* Ensure a clean font */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* General Container Styling */
+  #countdown-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 40px;
+    width: 100%; /* Ensure the container takes full width */
   }
   
   /* Title Styling */
@@ -16,15 +25,18 @@
   #countdown-title h2 {
     font-size: 2rem; /* Increased font size */
     font-weight: bold;
-    color: #00e676; /* Bright green for the title */
+    color: #000000; /* Black color for the title */
     margin: 0;
   }
   
   /* General FlipDown Styling */
   #flipdown {
+    width: 100%; /* Make the countdown take up the full width of the page */
+    max-width: 100%; /* Ensure no maximum width is set */
     margin: 20px auto;
-    max-width: 600px;
     text-align: center;
+    display: flex;
+    justify-content: center;
   }
   
   /* FlipDown Rotor Colors */
