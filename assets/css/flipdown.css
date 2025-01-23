@@ -1,6 +1,6 @@
 /* Set the background color for the whole page */
 body {
-    background-color: #f4f4f4; /* Light gray background color */
+    background-color: #f4f4f4; /* Light gray background color for the whole page */
     font-family: Arial, sans-serif; /* Ensure a clean font */
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
   /* Styling for the new section */
   #countdown-section {
     padding: 40px 0; /* Add padding for spacing around the section */
-    background-color: #ffffff; /* White background for the countdown section */
+    background-color: #d3d3d3; /* Light gray background color for the countdown section */
     text-align: center;
     width: 100%;
   }
