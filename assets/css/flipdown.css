@@ -1,6 +1,6 @@
 /* Set the background color for the whole page */
 body {
-    background-color: #f4f4f4; /* Light gray background color for the whole page */
+    background-color: #f7f7f7; /* Light gray background color for the whole page */
     font-family: Arial, sans-serif; /* Ensure a clean font */
     margin: 0;
     padding: 0;
@@ -40,12 +40,21 @@ body {
   .flipdown .rotor {
     background-color: #2c2c2c; /* Darker background color for better contrast */
     border: 2px solid #444; /* Subtle border */
-    height: 120px; /* Increased height for better visibility of numbers */
+    height: 140px; /* Increased height for better visibility of numbers */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px; /* Fixed width for each rotor */
   }
   
   .flipdown .rotor .rotor-leaf {
     background-color: #333; /* Slightly lighter leaf for better contrast */
     color: #00e676; /* Bright green text for contrast */
+    font-size: 3rem; /* Adjust the font size for better visibility */
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .flipdown .rotor .rotor-leaf span {
