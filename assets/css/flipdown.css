@@ -1,7 +1,10 @@
 /* General FlipDown Styling */
 #flipdown {
-    margin: 20px auto;
-    max-width: 600px;
+    width: 100%; /* Make the countdown take up the full width */
+    max-width: none; /* Remove any maximum width restrictions */
+    margin: 20px 0; /* Optional: Adjust margin for spacing */
+    display: flex;
+    justify-content: center; /* Center the countdown */
   }
   
   /* FlipDown Rotor Colors */
@@ -26,5 +29,5 @@
     font-size: 1.5em;
     margin-top: 20px;
     color: #00e676; /* Bright green for the message */
+    text-align: center; /* Center the message */
   }
-  
