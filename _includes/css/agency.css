@@ -239,7 +239,7 @@ fieldset[disabled] .btn-m.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
-    padding-top: 10px;
+    padding-top: 12px;
     padding-left: 10px;
 }
 
@@ -381,7 +381,7 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     /*font-family: {{ site.data.template.font.secondary }};*/
     /*font-family: {{ site.data.template.font.primary }};*/
-    font-family: 'Lato';
+    font-family: 'Antic Didone';
     font-weight: 300;
     font-size: 22px;
     /*font-style: italic;*/
@@ -427,7 +427,7 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         /*font-family: {{ site.data.template.font.secondary }};*/
         /*font-family: {{ site.data.template.font.primary }};*/
-        font-family: 'Lato';
+        font-family: 'Antic Didone';
         font-weight: 300;
         font-size: 40px;
         /*font-style: italic;*/
@@ -461,7 +461,7 @@ section h3.section-subheading {
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 16px;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: 400;
 }
 
@@ -654,7 +654,7 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4 {
-    margin-top: 0;
+    margin-top: 2px;
     color: inherit;
 }
 
