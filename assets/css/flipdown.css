@@ -5,9 +5,8 @@
 .flipdown {
   font-family: 'Roboto', sans-serif; /* Usando a fonte da página */
   font-weight: bold;
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
+  width: 100%; /* Agora ocupa toda a largura da página */
+  margin: 0; /* Remove margens */
   overflow: visible;
   height: 120px;
 }
@@ -15,7 +14,7 @@
 .flipdown .rotor-group {
   position: relative;
   float: left;
-  padding-right: 30px;
+  padding-right: 2%; /* Ajuste proporcional para espaçamento */
 }
 
 .flipdown .rotor-group:last-child {
@@ -32,9 +31,9 @@
 .flipdown .rotor {
   position: relative;
   float: left;
-  width: 60px;
+  width: 12%; /* Proporção para que os dígitos sejam distribuídos uniformemente */
   height: 90px;
-  margin: 0px 5px;
+  margin: 0px 1%; /* Espaçamento proporcional */
   border-radius: 4px;
   font-size: 4rem;
   text-align: center;
@@ -45,14 +44,14 @@
 .flipdown .rotor-bottom {
   overflow: hidden;
   position: absolute;
-  width: 60px;
+  width: 100%; /* Acompanha o tamanho da largura do rotor */
   height: 45px;
 }
 
 .flipdown .rotor-leaf {
   z-index: 1;
   position: absolute;
-  width: 60px;
+  width: 100%; /* Acompanha o tamanho da largura do rotor */
   height: 90px;
   transform-style: preserve-3d;
   transition: transform 0s;
@@ -67,7 +66,7 @@
 .flipdown .rotor-leaf-rear {
   overflow: hidden;
   position: absolute;
-  width: 60px;
+  width: 100%; /* Acompanha o tamanho da largura do rotor */
   height: 45px;
   margin: 0;
   transform: rotateX(0deg);
@@ -102,7 +101,7 @@
   position: absolute;
   bottom: 0px;
   left: 0px;
-  width: 60px;
+  width: 100%; /* Acompanha o tamanho da largura do rotor */
   height: 45px;
   border-radius: 0 0 4px 4px;
 }
@@ -113,6 +112,7 @@
   font-weight: bold;
   color: #000;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 /* Estilo para a seção */
@@ -125,25 +125,15 @@
 /* Ajustes de mídia para telas menores */
 @media (max-width: 550px) {
   .flipdown {
-    width: 100%;
     height: 80px;
   }
 
   .flipdown .rotor {
     font-size: 2.2rem;
-    margin-right: 3px;
-  }
-
-  .flipdown .rotor, .flipdown .rotor-leaf, .flipdown .rotor-leaf-front, .flipdown .rotor-leaf-rear, .flipdown .rotor-top, .flipdown .rotor-bottom, .flipdown .rotor:after {
-    width: 40px;
   }
 
   .flipdown .rotor-group {
-    padding-right: 20px;
-  }
-
-  .flipdown .rotor-group:last-child {
-    padding-right: 0;
+    padding-right: 10px;
   }
 
   .flipdown .rotor-group-heading:before {
