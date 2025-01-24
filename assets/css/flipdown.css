@@ -1,9 +1,9 @@
 /* Importando a fonte da página, ajuste conforme necessário */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Antic+Didone&display=swap');
 
 /* Tema do contador */
 .flipdown {
-  font-family: 'Roboto', sans-serif; /* Usando a fonte da página */
+  font-family: 'Antic Didone', sans-serif; /* Usando a fonte da página */
   font-weight: bold;
   width: 100%;
   max-width: 700px;

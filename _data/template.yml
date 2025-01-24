@@ -1,11 +1,11 @@
 # Color settings (hex-codes without the leading hashtag)
 color:
-  primary: f8d56f
-  secondary: facf6b   
+  primary: 4f7150
+  secondary: 526e53   
   secondary-dark: 333
   muted: 777
 
 # Fonf families
 font:
-  primary: 'Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif'
-  secondary: 'Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif'
+  primary: 'Antic Didone, "Helvetica Neue", Helvetica, Arial, sans-serif'
+  secondary: 'Antic Didone, "Helvetica Neue", Helvetica, Arial, sans-serif'
