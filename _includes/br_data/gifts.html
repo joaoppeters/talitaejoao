@@ -1,24 +1,24 @@
 <!-- Things To Do Section -->
-<section id="gifts">
+<section id="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Lista de Presentes</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque feugiat sapien sem, id dignissim est pellentesque eu. Etiam eget ligula fermentum, convallis odio vel, sodales metus. Proin odio arcu, tincidunt.</h3>
+                <h3 class="section-subheading text-muted">Preparamos algumas sugestões de presentes disponíveis em diferentes sites. Agradecemos de coração pelo carinho!</h3>
             </div>
         </div>
         <div class="row">
         {% for post in site.data.br.gifts %}
-            <div class="col-md-4 col-sm-6 gifts-item">
-                <a href="#giftsModal{{ post.modal-id }}" class="gifts-link" data-toggle="modal">
-                    <div class="gifts-hover">
-                        <div class="gifts-hover-content">
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
                     <img src="/img/gifts/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
                 </a>
-                <div class="gifts-caption">
+                <div class="portfolio-caption">
                     <h4>{{ post.title }}</h4>
                     <p class="text-muted">{{ post.subtitle }}</p>
                 </div>
