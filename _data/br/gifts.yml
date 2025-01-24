@@ -5,12 +5,12 @@
   drive: Camicado
   link: https://goo.gl/maps/MY49ntTHETuat5jN8
 
-  - title: Magalu
-  modal-id: 1
-  img: magalu.jpg
-  thumbnail: magalu.jpg
-  drive: Magalu
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
+  # - title: Magalu
+  # modal-id: 1
+  # img: magalu.jpg
+  # thumbnail: magalu.jpg
+  # drive: Magalu
+  # link: https://goo.gl/maps/MY49ntTHETuat5jN8
   
 # - title: Maquiagem
 #   modal-id: 2
