@@ -4,28 +4,51 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Local</h2>
-                <h3 class="section-subheading text-muted">Espaço de Festa Cana e Café Eventos. Com ótima localização, estacionamento próprio e vista privilegiada para o lago do funil.<br>Rodovia Lavras-Ijaci - Lavras/MG.</h3>
+                <h3 class="section-subheading text-muted">
+                    Espaço de Festa Cana e Café Eventos. Com ótima localização, estacionamento próprio e vista privilegiada para o lago do funil.<br>
+                    Rodovia Lavras-Ijaci - Lavras/MG.
+                </h3>
             </div>
         </div>
         <style>
-        .google-maps {
-            position: relative;
-            padding-bottom: 75%; // This is the aspect ratio
-            height: 0;
-            overflow: hidden;
-        }
-        .google-maps iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100% !important;
-            height: 100% !important;
-        }
+            .venue-container {
+                display: flex;
+                gap: 20px; /* Space between the map and the widget */
+                flex-wrap: wrap; /* Ensure proper layout on smaller screens */
+            }
+            .venue-container > div {
+                flex: 1 1 50%; /* Adjust the width of each item */
+                max-width: 50%; /* Prevent items from growing too large */
+            }
+            .google-maps {
+                position: relative;
+                padding-bottom: 75%; /* Aspect ratio */
+                height: 0;
+                overflow: hidden;
+            }
+            .google-maps iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100% !important;
+                height: 100% !important;
+            }
+            @media (max-width: 768px) {
+                .venue-container > div {
+                    max-width: 100%; /* Full width on smaller screens */
+                }
+            }
         </style>
-
-        <div class="google-maps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5298.684020091287!2d-44.92124908513524!3d-21.158156233358497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa0030e6fcb205d%3A0x1975b82b6e79563d!2sCana%20Caf%C3%A9%20Eventos!5e0!3m2!1sen!2sbr!4v1735949254335!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="venue-container">
+            <!-- Google Maps -->
+            <div class="google-maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5298.684020091287!2d-44.92124908513524!3d-21.158156233358497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa0030e6fcb205d%3A0x1975b82b6e79563d!2sCana%20Caf%C3%A9%20Eventos!5e0!3m2!1sen!2sbr!4v1735949254335!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- Elfsight Widget -->
+            <div>
+                <script src="https://static.elfsight.com/platform/platform.js" async></script>
+                <div class="elfsight-app-f5083903-5f69-4839-8c19-e80117f64e01" data-elfsight-app-lazy></div>
+            </div>
         </div>
     </div>
 </section>
-
