@@ -3,14 +3,21 @@
   img: camicado.jpg
   thumbnail: camicado.jpg
   drive: Camicado
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
+  link: https://camicado.com.br
 
 - title: Magalu
   modal-id: 2
   img: magalu.jpg
   thumbnail: magalu.jpg
   drive: Magalu
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
+  link: https://www.finalfeliz.de/talitaejoaopedropeters
+
+- title: Amazon
+  modal-id: 2
+  img: amazon.jpg
+  thumbnail: amazon.jpg
+  drive: Amazon
+  link: https://amazon.com.br
   
 # - title: Maquiagem
 #   modal-id: 2
