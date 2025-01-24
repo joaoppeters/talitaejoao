@@ -654,7 +654,7 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4 {
-    margin-top: 2px;
+    margin-top: 10px;
     color: inherit;
 }
 
@@ -692,7 +692,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image h4 {
-        margin-top: 16px;
+        margin-top: 25px;
         font-size: 13px;
         line-height: 18px;
     }
