@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Calculate the Unix timestamp for 23/August/2025
-    const targetDate = new Date('2025-08-23T00:00:00Z'); // UTC time
+    const targetDate = new Date('2025-08-23T16:00:00Z'); // UTC time
     const targetTimestamp = Math.floor(targetDate.getTime() / 1000);
   
     // Ensure FlipDown container exists
