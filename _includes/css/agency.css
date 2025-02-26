@@ -306,7 +306,7 @@ fieldset[disabled] .btn-m.active {
 
 .navbar-header {
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 .brand {
@@ -399,9 +399,9 @@ header .intro-text .intro-heading {
     /*font-family: {{ site.data.template.font.primary }};*/
     font-family: 'Amsterdam Four_ttf';
     text-shadow: 2px 2px 4px #000000;
-    font-size: 25px;
+    font-size: 75px;
     /*font-weight: 700;*/
-    line-height: 50px;
+    line-height: 75px;
     padding-bottom: 15px;
 }
 
@@ -445,9 +445,9 @@ header .intro-text .intro-heading {
         /*font-family: {{ site.data.template.font.primary }};*/
         font-family: 'Amsterdam Four_ttf';
         text-shadow: 2px 2px 4px #000000;
-        font-size: 50px;
+        font-size: 75px;
         /*font-weight: 700;*/
-        line-height: 50px;
+        line-height: 75px;
     }
 }
 
@@ -762,7 +762,7 @@ section h3.section-subheading {
 
 .team-member {
     margin-bottom: 50px;
-    text-align: center;
+    text-align: left;
 }
 
 .team-member img {
