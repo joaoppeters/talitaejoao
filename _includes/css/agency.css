@@ -308,7 +308,7 @@ fieldset[disabled] .btn-m.active {
     /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
     font-family: "Amsterdam Four_ttf","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
-    font-size: 2.0em;
+    font-size: 1.0em;
 }
 
 .brand {
@@ -337,7 +337,7 @@ fieldset[disabled] .btn-m.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2em;
+        font-size: 1em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
