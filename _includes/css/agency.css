@@ -309,11 +309,6 @@ fieldset[disabled] .btn-m.active {
     text-align: center;
 }
 
-.navbar-brand {
-    float: none;
-    display: inline-block;
-}
-
 .brand {
     /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
     font-family: "Amsterdam Four_ttf","Helvetica Neue",Helvetica,Arial,cursive;
