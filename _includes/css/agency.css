@@ -394,7 +394,7 @@ header .intro-text .intro-heading {
     /*font-family: {{ site.data.template.font.primary }};*/
     font-family: 'Amsterdam Four_ttf';
     text-shadow: 2px 2px 4px #000000;
-    font-size: 50px;
+    font-size: 25px;
     /*font-weight: 700;*/
     line-height: 50px;
     padding-bottom: 15px;
