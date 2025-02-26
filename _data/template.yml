@@ -4,6 +4,7 @@ color:
   secondary: 526e53   
   secondary-dark: 333
   muted: 777
+  white: fffffff
 
 # Fonf families
 font:
