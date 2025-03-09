@@ -4,7 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
+ body {
     overflow-x: hidden;
     /*font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-family: Antid Didone,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -304,21 +304,11 @@ fieldset[disabled] .btn-m.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
-.navbar-header {
-    width: 100%;
-    text-align: left;
-}
-
-.navbar-brand {
-    float: none;
-    display: inline-block;
-}
-
 .brand {
     /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
     font-family: "Amsterdam Four_ttf","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
-    font-size: 2.0em;
+    font-size: 2.5em;
 }
 
 .brand {
@@ -347,7 +337,7 @@ fieldset[disabled] .btn-m.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 2.0em;
+        font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -406,7 +396,7 @@ header .intro-text .intro-heading {
     text-shadow: 2px 2px 4px #000000;
     font-size: 75px;
     /*font-weight: 700;*/
-    line-height: 75px;
+    line-height: 50px;
     padding-bottom: 15px;
 }
 
@@ -450,7 +440,7 @@ header .intro-text .intro-heading {
         /*font-family: {{ site.data.template.font.primary }};*/
         font-family: 'Amsterdam Four_ttf';
         text-shadow: 2px 2px 4px #000000;
-        font-size: 75px;
+        font-size: 50px;
         /*font-weight: 700;*/
         line-height: 75px;
     }
@@ -630,8 +620,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    /* background-color: #{{ site.data.template.color.primary }}; */
-    background-color: #fff;
+    background-color: #{{ site.data.template.color.primary }};
 }
 
 .timeline>li .timeline-image h4 {
@@ -767,7 +756,7 @@ section h3.section-subheading {
 
 .team-member {
     margin-bottom: 50px;
-    text-align: left;
+    text-align: center;
 }
 
 .team-member img {
