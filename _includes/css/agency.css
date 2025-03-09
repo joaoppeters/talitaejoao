@@ -654,12 +654,13 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4 {
-    margin-top: 10px;
+    margin-top: 30px;
     color: inherit;
 }
 
 .timeline .timeline-heading h4.subheading {
-    text-transform: none;
+    /* text-transform: none; */
+    font-weight: 400;
 }
 
 .timeline .timeline-body>p,
