@@ -239,7 +239,7 @@ fieldset[disabled] .btn-m.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
-    padding-top: 45px;
+    padding-top: 25px;
     padding-left: 10px;
 }
 
@@ -313,11 +313,11 @@ fieldset[disabled] .btn-m.active {
     /*font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
     font-family: "Amsterdam Four_ttf","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
-    font-size: 1.95em;
+    font-size: 2em;
 }
 
 .brand {
-    padding-top: 100px;
+    padding-top: 75px;
     text-decoration: none;
 }
 
@@ -342,7 +342,7 @@ fieldset[disabled] .btn-m.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 1.95em;
+        font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
