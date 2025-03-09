@@ -1,7 +1,7 @@
 - title: 
   modal-id: 1
   img: traje.jpg
-  thumbnail: traje.jpg
+  # thumbnail: traje.jpg
   description: Texto Traje
 
 # - title: 
