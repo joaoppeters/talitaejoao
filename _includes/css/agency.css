@@ -306,7 +306,7 @@ fieldset[disabled] .btn-m.active {
 
 .navbar-header {
     width: 100%;
-    text-align: center;
+    text-align: left;
 }
 
 .navbar-brand {
