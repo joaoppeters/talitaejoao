@@ -337,7 +337,7 @@ fieldset[disabled] .btn-m.active {
     }
 
     .navbar-default .navbar-brand {
-        font-size: 1.75em;
+        font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
