@@ -1,10 +1,10 @@
-- title: Traje
+- title: 
   modal-id: 1
   img: traje.jpg
   thumbnail: traje.jpg
   description: Texto Traje
 
-- title: Cabelereiro
+- title: 
   modal-id: 2
   img: salao.jpg
   thumbnail: salao.jpg
@@ -12,7 +12,7 @@
   link: https://google.com
   description: Texto Salão 
 
-- title: Hospedagem
+- title: 
   modal-id: 3
   img: hospedagem.jpg
   thumbnail: hospedagem.jpg
@@ -20,7 +20,7 @@
   link: https://google.com
   description: Texto Hospedagem
 
-- title: Transporte
+- title: 
   modal-id: 4
   img: transporte.jpg
   thumbnail: transporte.jpg
@@ -28,7 +28,7 @@
   link: https://google.com
   description: Texto Transporte
 
-- title: Restaurante
+- title: 
   modal-id: 5
   img: restaurante.jpg
   thumbnail: restaurante.jpg
@@ -36,7 +36,7 @@
   link: https://google.com
   description: Texto Restaurante
 
-- title: Grupo do Whatsapp
+- title: 
   modal-id: 6
   img: whatsapp.jpg
   thumbnail: whatsapp.jpg
