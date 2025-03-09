@@ -654,7 +654,8 @@ section h3.section-subheading {
 }
 
 .timeline .timeline-heading h4 {
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: inherit;
 }
 
