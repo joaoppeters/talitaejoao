@@ -1,47 +1,45 @@
-- title: Cabelereiro
+- title: Traje
   modal-id: 1
-  img: cabelereiro.webp
-  thumbnail: cabelereiro.webp
-  drive: X minutes
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique rutrum mauris nec rutrum. Nam sem ex, bibendum vitae velit eu, tempor sagittis nunc. Donec nunc erat, tempor ac finibus vel, molestie eget augue. Curabitur eleifend venenatis mi, sagittis faucibus ex pellentesque in. Etiam efficitur, augue sed faucibus laoreet, ligula diam euismod ipsum, facilisis pharetra sapien tortor eget nibh. Nulla vel purus suscipit, rutrum diam.
+  img: traje.jpg
+  thumbnail: traje.jpg
+  description: Texto Traje
 
-- title: Maquiagem
+- title: Cabelereiro
   modal-id: 2
-  img: maquiagem.webp
-  thumbnail: maquiagem.webp
+  img: salao.jpg
+  thumbnail: salao.jpg
   drive: X minutes
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique rutrum mauris nec rutrum. Nam sem ex, bibendum vitae velit eu, tempor sagittis nunc. Donec nunc erat, tempor ac finibus vel, molestie eget augue. Curabitur eleifend venenatis mi, sagittis faucibus ex pellentesque in. Etiam efficitur, augue sed faucibus laoreet, ligula diam euismod ipsum, facilisis pharetra sapien tortor eget nibh. Nulla vel purus suscipit, rutrum diam.
+  link: https://google.com
+  description: Texto Salão 
+
+- title: Hospedagem
+  modal-id: 3
+  img: hospedagem.jpg
+  thumbnail: hospedagem.jpg
+  drive: X minutes
+  link: https://google.com
+  description: Texto Hospedagem
 
 - title: Transporte
-  modal-id: 3
-  img: 3.jpg
-  thumbnail: 3.jpg
-  drive: X minutes
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique rutrum mauris nec rutrum. Nam sem ex, bibendum vitae velit eu, tempor sagittis nunc. Donec nunc erat, tempor ac finibus vel, molestie eget augue. Curabitur eleifend venenatis mi, sagittis faucibus ex pellentesque in. Etiam efficitur, augue sed faucibus laoreet, ligula diam euismod ipsum, facilisis pharetra sapien tortor eget nibh. Nulla vel purus suscipit, rutrum diam.
-
-- title: Hotéis
   modal-id: 4
-  img: 4.jpg
-  thumbnail: 4.jpg
+  img: transporte.jpg
+  thumbnail: transporte.jpg
   drive: X minutes
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique rutrum mauris nec rutrum. Nam sem ex, bibendum vitae velit eu, tempor sagittis nunc. Donec nunc erat, tempor ac finibus vel, molestie eget augue. Curabitur eleifend venenatis mi, sagittis faucibus ex pellentesque in. Etiam efficitur, augue sed faucibus laoreet, ligula diam euismod ipsum, facilisis pharetra sapien tortor eget nibh. Nulla vel purus suscipit, rutrum diam.
+  link: https://google.com
+  description: Texto Transporte
 
-- title: Chácaras
+- title: Restaurante
   modal-id: 5
-  img: 5.jpg
-  thumbnail: 5.jpg
+  img: restaurante.jpg
+  thumbnail: restaurante.jpg
   drive: X minutes
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique rutrum mauris nec rutrum. Nam sem ex, bibendum vitae velit eu, tempor sagittis nunc. Donec nunc erat, tempor ac finibus vel, molestie eget augue. Curabitur eleifend venenatis mi, sagittis faucibus ex pellentesque in. Etiam efficitur, augue sed faucibus laoreet, ligula diam euismod ipsum, facilisis pharetra sapien tortor eget nibh. Nulla vel purus suscipit, rutrum diam.
+  link: https://google.com
+  description: Texto Restaurante
 
 - title: Grupo do Whatsapp
   modal-id: 6
-  img: whatsapp.png
-  thumbnail: whatsapp.png
+  img: whatsapp.jpg
+  thumbnail: whatsapp.jpg
   drive: X minutes
-  link: https://goo.gl/maps/MY49ntTHETuat5jN8
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique rutrum mauris nec rutrum. Nam sem ex, bibendum vitae velit eu, tempor sagittis nunc. Donec nunc erat, tempor ac finibus vel, molestie eget augue. Curabitur eleifend venenatis mi, sagittis faucibus ex pellentesque in. Etiam efficitur, augue sed faucibus laoreet, ligula diam euismod ipsum, facilisis pharetra sapien tortor eget nibh. Nulla vel purus suscipit, rutrum diam.
+  link: https://google.com
+  description: Texto Whatsapp
