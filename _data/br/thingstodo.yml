@@ -4,16 +4,16 @@
   thumbnail: traje.jpg
   description: Texto Traje
 
-- title: 
-  modal-id: 2
-  img: salao.jpg
-  thumbnail: salao.jpg
-  drive: X minutes
-  link: https://google.com
-  description: Texto Salão 
+# - title: 
+#   modal-id: 2
+#   img: comochegar.jpg
+#   thumbnail: comochegar.jpg
+#   drive: X minutes
+#   link: https://google.com
+#   description: Texto Salão 
 
 - title: 
-  modal-id: 3
+  modal-id: 2
   img: hospedagem.jpg
   thumbnail: hospedagem.jpg
   drive: X minutes
@@ -21,12 +21,20 @@
   description: Texto Hospedagem
 
 - title: 
-  modal-id: 4
-  img: transporte.jpg
-  thumbnail: transporte.jpg
+  modal-id: 3
+  img: deslocamento.jpg
+  thumbnail: deslocamento.jpg
   drive: X minutes
   link: https://google.com
   description: Texto Transporte
+
+- title: 
+  modal-id: 4
+  img: salao.jpg
+  thumbnail: salao.jpg
+  drive: X minutes
+  link: https://google.com
+  description: Texto Salão 
 
 - title: 
   modal-id: 5
@@ -36,10 +44,10 @@
   link: https://google.com
   description: Texto Restaurante
 
-- title: 
-  modal-id: 6
-  img: whatsapp.jpg
-  thumbnail: whatsapp.jpg
-  drive: X minutes
-  link: https://google.com
-  description: Texto Whatsapp
+# - title: 
+#   modal-id: 6
+#   img: whatsapp.jpg
+#   thumbnail: whatsapp.jpg
+#   drive: X minutes
+#   link: https://google.com
+#   description: Texto Whatsapp
