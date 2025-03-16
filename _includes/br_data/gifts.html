@@ -1,29 +1,24 @@
-<!-- Things To Do Section -->
-<section id="gifts">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Lista de Presentes</h2>
-                <h3 class="section-subheading text-muted">Preparamos algumas sugestões de presentes disponíveis em diferentes sites. Agradecemos de coração pelo carinho!</h3>
-            </div>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Presentes</title>
+    <!-- Incluir seu CSS customizado ou framework CSS (como Bootstrap) -->
+    <link rel="stylesheet" href="/assets/css/styles.css"> 
+</head>
+<body>
+
+    <!-- Botão para redirecionar para a nova página com a lista de presentes -->
+    <section id="gifts-redirect">
+        <div class="container text-center">
+            <h2 class="section-heading">Lista de Presentes</h2>
+            <h3 class="section-subheading text-muted">
+                Clique abaixo para ver nossa lista de presentes e opções de presentes em diferentes sites.
+            </h3>
+            <a href="/list.html" class="btn btn-primary btn-lg">Ver Lista de Presentes</a> <!-- Este link leva para a nova página -->
         </div>
-        <div class="row">
-        {% for post in site.data.br.gifts %}
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#giftsModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
-                        </div>
-                    </div>
-                    <img src="/img/gifts/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>{{ post.title }}</h4>
-                    <p class="text-muted">{{ post.subtitle }}</p>
-                </div>
-            </div>
-        {% endfor %}
-        </div>
-    </div>
-</section>
+    </section>
+
+</body>
+</html>
