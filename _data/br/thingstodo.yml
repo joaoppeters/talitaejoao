@@ -2,44 +2,72 @@
   modal-id: 1
   img: comochegar.jpg
   thumbnail: comochegar.jpg
-  drive: X minutes
-  descriptions: Texto Como Chegar
+  options:
+    - description: Texto Restaurante 1
+      link: https://google.com/1
+    - description: Texto Restaurante 2
+      link: https://google.com/2
+    - description: Texto Restaurante 3
+      link: https://google.com/3
+    - description: Texto Restaurante 4
+      link: https://google.com/4
 
 - title: 
   modal-id: 2
   img: traje.jpg
   thumbnail: traje.jpg
-  description: Texto Traje
+  options:
+    - description: Texto Traje 1
+      link: https://google.com/1
+    - description: Texto Traje 2
+      link: https://google.com/2
 
 - title: 
   modal-id: 3
   img: hospedagem.jpg
   thumbnail: hospedagem.jpg
-  drive: X minutes
-  link: https://google.com
-  description: Texto Hospedagem
+  options:
+    - description: Texto Hospedagem 1
+      link: https://google.com/1
+    - description: Texto Hospedagem 2
+      link: https://google.com/2
+    - description: Texto Hospedagem 3
+      link: https://google.com/3
+    - description: Texto Hospedagem 4
+      link: https://google.com/4
 
 - title: 
   modal-id: 4
   img: deslocamento.jpg
   thumbnail: deslocamento.jpg
-  drive: X minutes
-  link: https://google.com
-  description: Texto Transporte
+  options:
+    - description: Texto Deslocamento 1
+      link: https://google.com/1
+    - description: Texto Deslocamento 2
+      link: https://google.com/2
+    - description: Texto Deslocamento 3
+      link: https://google.com/3
+    - description: Texto Deslocamento 4
+      link: https://google.com/4
 
 - title: 
   modal-id: 5
   img: salao.jpg
   thumbnail: salao.jpg
-  drive: X minutes
-  link: https://google.com
-  description: Texto Salão 
+  options:
+    - description: Texto Salao 1
+      link: https://google.com/1
+    - description: Texto Salao 2
+      link: https://google.com/2
+    - description: Texto Salao 3
+      link: https://google.com/3
+    - description: Texto Salao 4
+      link: https://google.com/4
 
-- title: Restaurante
+- title: 
   modal-id: 6
   img: restaurante.jpg
   thumbnail: restaurante.jpg
-  drive: X minutes
   options:
     - description: Texto Restaurante 1
       link: https://google.com/1
