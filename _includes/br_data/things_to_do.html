@@ -8,48 +8,50 @@
             </div>
         </div>
         <div class="row">
-        {% for post in site.data.br.thingstodo %}
-            <div class="col-md-4 col-sm-6 portfolio-item">
-                <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
-                    <div class="portfolio-hover">
-                        <div class="portfolio-hover-content">
-                            <i class="fa fa-plus fa-3x"></i>
+            {% for post in site.data.br.thingstodo %}
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
                         </div>
+                        <img src="/img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.drive }}</p>
                     </div>
-                    <img src="/img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-                </a>
-                <div class="portfolio-caption">
-                    <h4>{{ post.title }}</h4>
-                    <p class="text-muted">{{ post.drive }}</p>
                 </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
 
 <!-- Modal -->
-<div id="portfolioModal{{ post.modal-id }}" class="modal fade" tabindex="-1">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title">{{ post.title }}</h4>
-            </div>
-            <div class="modal-body">
-                <img src="/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="">
-                {% if post.options %}
-                    {% for option in post.options %}
-                        <p>{{ option.description }}</p>
-                        <a href="{{ option.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
-                        <hr>
-                    {% endfor %}
-                {% else %}
-                    <p>{{ post.description }}</p>
-                    {% if post.link %}
-                        <a href="{{ post.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
+{% for post in site.data.br.thingstodo %}
+    <div id="portfolioModal{{ post.modal-id }}" class="modal fade" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">{{ post.title }}</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="">
+                    {% if post.options %}
+                        {% for option in post.options %}
+                            <p>{{ option.description }}</p>
+                            <a href="{{ option.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
+                            <hr>
+                        {% endfor %}
+                    {% else %}
+                        <p>{{ post.description }}</p>
+                        {% if post.link %}
+                            <a href="{{ post.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
+                        {% endif %}
                     {% endif %}
-                {% endif %}
+                </div>
             </div>
         </div>
     </div>
-</div>
 {% endfor %}
