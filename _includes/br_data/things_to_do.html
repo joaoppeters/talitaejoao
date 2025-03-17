@@ -1,45 +1,42 @@
-<section id="portfolio">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Indicações</h2>
-                <h3 class="section-subheading text-muted">Confira algumas das nossas indicações para que você aproveite ao máximo o nosso casamento!</h3>
+{% for post in site.data.br.thingstodo %}
+<div class="col-md-4 col-sm-6 portfolio-item">
+    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+        <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
             </div>
         </div>
-        <div class="row">
-            {% for post in site.data.br.thingstodo %}
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <button onclick="window.location.href='#portfolioModal{{ post.modal-id }}'" class="portfolio-button">
-                        <img src="/img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </button>
-                    <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.subtitle }}</p>
-                    </div>
-                </div>
-            {% endfor %}
+        <img src="/img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+    </a>
+    <div class="portfolio-caption">
+        <h4>{{ post.title }}</h4>
+        <p class="text-muted">{{ post.drive }}</p>
+    </div>
+</div>
+
+<!-- Modal -->
+<div id="portfolioModal{{ post.modal-id }}" class="modal fade" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">{{ post.title }}</h4>
+            </div>
+            <div class="modal-body">
+                <img src="/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="">
+                {% if post.options %}
+                    {% for option in post.options %}
+                        <p>{{ option.description }}</p>
+                        <a href="{{ option.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
+                        <hr>
+                    {% endfor %}
+                {% else %}
+                    <p>{{ post.description }}</p>
+                    {% if post.link %}
+                        <a href="{{ post.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
+                    {% endif %}
+                {% endif %}
+            </div>
         </div>
     </div>
-</section>
-
-<style>
-    .portfolio-button {
-        background: none;
-        border: none;
-        padding: 0;
-        cursor: pointer;
-        display: block;
-        width: 100%;
-    }
-
-    .portfolio-button img {
-        width: 100%;
-        height: auto;
-        border-radius: 8px;
-        transition: transform 0.2s;
-    }
-
-    .portfolio-button:hover img {
-        transform: scale(1.05);
-    }
-</style>
+</div>
+{% endfor %}

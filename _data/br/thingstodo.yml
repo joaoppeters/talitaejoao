@@ -3,14 +3,7 @@
   img: comochegar.jpg
   thumbnail: comochegar.jpg
   drive: X minutes
-  descriptions:
-    - Texto Salão
-    - Description 2 for Option 1
-    - Additional description for Option 1
-  links:
-    - https://google.com
-    - https://anotherlink.com
-    - https://yetanotherlink.com
+  descriptions: Texto Como Chegar
 
 - title: 
   modal-id: 2
@@ -42,10 +35,18 @@
   link: https://google.com
   description: Texto Salão 
 
-- title: 
+- title: Restaurante
   modal-id: 6
   img: restaurante.jpg
   thumbnail: restaurante.jpg
   drive: X minutes
-  link: https://google.com
-  description: Texto Restaurante
+  options:
+    - description: Texto Restaurante 1
+      link: https://google.com/1
+    - description: Texto Restaurante 2
+      link: https://google.com/2
+    - description: Texto Restaurante 3
+      link: https://google.com/3
+    - description: Texto Restaurante 4
+      link: https://google.com/4
+
