@@ -456,6 +456,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    color: #000000;
 }
 
 section h3.section-subheading {
@@ -858,10 +859,15 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #000000;
+}
+
+section#contact .section-subheading {
+    color: #000000;
 }
 
 section#contact .form-group {
+    color: #4f7150;
     margin-bottom: 25px;
 }
 
