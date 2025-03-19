@@ -378,6 +378,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
+    color: #fff;
     margin-bottom: 25px;
     /*font-family: {{ site.data.template.font.secondary }};*/
     /*font-family: {{ site.data.template.font.primary }};*/
