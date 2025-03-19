@@ -294,13 +294,13 @@ fieldset[disabled] .btn-m.active {
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
+    color: #4f7150;
     background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-    color: #fff;
+    color: #4f7150;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
@@ -360,7 +360,7 @@ fieldset[disabled] .btn-m.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #4f7150;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/backgrounds/site.jpg'); 
     background-position: center center;
@@ -381,7 +381,7 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     /*font-family: {{ site.data.template.font.secondary }};*/
     /*font-family: {{ site.data.template.font.primary }};*/
-    font-family: 'Antic Didone';
+    font-family: 'Cormorant Garamond';
     font-weight: 300;
     font-size: 22px;
     /*font-style: italic;*/
@@ -389,21 +389,22 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-top: 50px;
+    /* margin-bottom: 25px; */
     /*text-transform: uppercase;*/
     /*font-family: {{ site.data.template.font.primary }};*/
     font-family: 'Amsterdam Four_ttf';
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #fff;
     font-size: 75px;
     /*font-weight: 700;*/
     line-height: 50px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
 }
 
 @media(min-width:768px) {
 	header {
     text-align: center;
-    color: #fff;
+    color: #4f7150;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/backgrounds/site.jpg'); 
     /*background-position: center center;*/
@@ -427,7 +428,7 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         /*font-family: {{ site.data.template.font.secondary }};*/
         /*font-family: {{ site.data.template.font.primary }};*/
-        font-family: 'Antic Didone';
+        font-family: 'Cormorant Garamond';
         font-weight: 300;
         font-size: 40px;
         /*font-style: italic;*/
@@ -435,11 +436,12 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 100px;
+        margin-top: 50px;
+        /* margin-bottom: 100px; */
         /*text-transform: uppercase;*/
         /*font-family: {{ site.data.template.font.primary }};*/
         font-family: 'Amsterdam Four_ttf';
-        text-shadow: 2px 2px 4px #000000;
+        text-shadow: 2px 2px 4px #fff;
         font-size: 50px;
         /*font-weight: 700;*/
         line-height: 75px;
@@ -782,6 +784,69 @@ section h3.section-subheading {
 
 aside.clients img {
     margin: 50px auto;
+}
+
+section#bridal_party {
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#events {
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#flipdown {
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#list {
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#our_story {
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#stay {
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#portfolio {
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#travel {
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#venue {
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 section#contact {
