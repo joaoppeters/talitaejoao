@@ -277,7 +277,7 @@ fieldset[disabled] .btn-m.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 400;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #4f7150;
     /* color: #808080; */
@@ -295,12 +295,14 @@ fieldset[disabled] .btn-m.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
+    font-weight: bold;
     background-color: #{{ site.data.template.color.primary }};
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
+    font-weight: bold;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
