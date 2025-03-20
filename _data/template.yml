@@ -4,7 +4,8 @@ color:
   secondary: 4f7150   
   secondary-dark: 333
   terciary: 95b596
-  muted: 777
+  # muted: 
+  muted: d3d3d3
   white: fffffff
 
 # Fonf families
