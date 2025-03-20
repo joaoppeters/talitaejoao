@@ -279,6 +279,7 @@ fieldset[disabled] .btn-m.active {
     font-family: {{ site.data.template.font.primary }};
     font-weight: bold;
     letter-spacing: 1px;
+    background-color: #fff;
     color: #4f7150;
     /* color: #808080; */
     -webkit-transition: all ease .35s;
