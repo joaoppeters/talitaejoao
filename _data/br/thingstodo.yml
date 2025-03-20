@@ -1,7 +1,7 @@
 - title: 
   modal-id: 1
-  img: comochegar.jpg
-  thumbnail: comochegar.jpg
+  img: comochegar.png
+  thumbnail: comochegar.png
   options:
     - description: Texto Restaurante 1
       link: https://google.com/1
@@ -14,8 +14,8 @@
 
 - title: 
   modal-id: 2
-  img: traje.jpg
-  thumbnail: traje.jpg
+  img: traje.png
+  thumbnail: traje.png
   options:
     - description: Texto Traje 1
       link: https://google.com/1
@@ -24,8 +24,8 @@
 
 - title: 
   modal-id: 3
-  img: hospedagem.jpg
-  thumbnail: hospedagem.jpg
+  img: hospedagem.png
+  thumbnail: hospedagem.png
   options:
     - description: Texto Hospedagem 1
       link: https://google.com/1
@@ -38,8 +38,8 @@
 
 - title: 
   modal-id: 4
-  img: deslocamento.jpg
-  thumbnail: deslocamento.jpg
+  img: deslocamento.png
+  thumbnail: deslocamento.png
   options:
     - description: Texto Deslocamento 1
       link: https://google.com/1
@@ -52,8 +52,8 @@
 
 - title: 
   modal-id: 5
-  img: salao.jpg
-  thumbnail: salao.jpg
+  img: salao.png
+  thumbnail: salao.png
   options:
     - description: Texto Salao 1
       link: https://google.com/1
@@ -66,8 +66,8 @@
 
 - title: 
   modal-id: 6
-  img: restaurante.jpg
-  thumbnail: restaurante.jpg
+  img: restaurante.png
+  thumbnail: restaurante.png
   options:
     - description: Texto Restaurante 1
       link: https://google.com/1
