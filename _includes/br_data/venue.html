@@ -15,12 +15,12 @@
                 display: flex;
                 justify-content: space-between;
                 align-items: flex-start;
-                gap: 20px; /* Space between the map and the widget */
+                gap: 40px; /* Space between the map and the widget */
                 flex-wrap: wrap; /* Wrap items on smaller screens */
             }
             .venue-container > div {
-                flex: 1 1 calc(50% - 20px); /* Take up 50% of the container, minus the gap */
-                max-width: calc(50% - 20px); /* Ensure max width matches flex basis */
+                flex: 1 1 calc(70% - 20px); /* Take up 50% of the container, minus the gap */
+                max-width: calc(30% - 20px); /* Ensure max width matches flex basis */
             }
             .google-maps {
                 position: relative;
@@ -50,7 +50,7 @@
             <!-- Elfsight Widget -->
             <div>
                 <script src="https://static.elfsight.com/platform/platform.js" async></script>
-                <div class="elfsight-app-f5083903-5f69-4839-8c19-e80117f64e01" data-elfsight-app-lazy></div>
+                <div class="elfsight-app-f5083903-5f69-4839-8c19-e80117f64e01" data-elfsight-app-lazy style="margin-left: 120px"></div>
             </div>
         </div>
     </div>
