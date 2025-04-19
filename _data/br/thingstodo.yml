@@ -17,8 +17,8 @@
   img: traje.png
   thumbnail: traje.png
   options:
-    - description: Mulheres: vestido longo ou midi elegante. Recomendamos o uso de salto grossos pois a cerimônia será em um gramado. Evitar tons de vestido em branco, off-white ou semelhantes.
-    - description: Homens: terno completo (calça, paletó e gravata). Recomendamos o uso de sapatos sociais e ternos em cores médias ou escuras.
+    - description: Recomendamos às mulheres vestido longo ou midi elegante. Recomendamos ainda o uso de salto grossos pois a cerimônia será em um gramado. Evitar tons de vestido em branco, off-white ou semelhantes.
+    - description: Recomendamos aos homens terno completo (calça, paletó e gravata). Recomendamos ainda o uso de sapatos sociais e ternos em cores médias ou escuras.
     - description: Favor se atentar ao climatempo adicionado na seção "Local" nete site para melhor escolha das roupas.
     
 - title: 
@@ -34,7 +34,7 @@
       link: https://maps.app.goo.gl/fpdWNNPWNzBbYNY3A
     - description: Hotel Ibis - Lavras (30 min de carro do local da cerimônia)
       link: https://maps.app.goo.gl/1S3kokopVDWnxnFg8
-    - description: Recomendamos também procurar hospedagem em Airbnb ou Booking.com
+    - description: Recomendamos também procurar hospedagem em Airbnb ou Booking.com, na cidade de Lavras ou Ijaci.
 
 - title: 
   modal-id: 4
@@ -43,12 +43,7 @@
   options:
     - description: Texto Deslocamento 1
       link: https://google.com/1
-    - description: Texto Deslocamento 2
-      link: https://google.com/2
-    - description: Texto Deslocamento 3
-      link: https://google.com/3
-    - description: Texto Deslocamento 4
-      link: https://google.com/4
+    - description: Recomendamos ainda o uso de aplicativos de transporte como Uber ou 99 para locomoção entre a hospedagem e o local da cerimônia.
 
 - title: 
   modal-id: 5
@@ -57,12 +52,6 @@
   options:
     - description: Texto Salao 1
       link: https://google.com/1
-    - description: Texto Salao 2
-      link: https://google.com/2
-    - description: Texto Salao 3
-      link: https://google.com/3
-    - description: Texto Salao 4
-      link: https://google.com/4
 
 - title: 
   modal-id: 6
@@ -73,8 +62,4 @@
       link: https://maps.app.goo.gl/eSzv6LxZBsP1rzBW6
     - description: Restaurante Espaço Lago da Serra - Ofenil
       link: https://maps.app.goo.gl/TdpCbZMmF5sDU1CdA
-    - description: Texto Restaurante 3
-      link: https://google.com/3
-    - description: Texto Restaurante 4
-      link: https://google.com/4
 
