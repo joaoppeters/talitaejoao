@@ -3,38 +3,38 @@
   img: comochegar.png
   thumbnail: comochegar.png
   options:
-    - description: Texto Restaurante 1
-      link: https://google.com/1
-    - description: Texto Restaurante 2
-      link: https://google.com/2
-    - description: Texto Restaurante 3
-      link: https://google.com/3
-    - description: Texto Restaurante 4
-      link: https://google.com/4
+    - description: Aeroporto de Confins (o mais próximo de Lavras/Ijaci)
+      link: http://www.bh-airport.com.br/
+    - description: BH -> Lavras/Ijaci (3h30 de carro, 250km)
+      link: https://maps.app.goo.gl/Cey3gSYLNYRZcY4o6
+    - description: JF -> Lavras/Ijaci (4h de carro, 250km) 
+      link: https://maps.app.goo.gl/B5LrGh3LnpAC5dbQ8
+    - description: São Carlos -> Lavras/Ijaci (6h de carro, 420km)
+      link: https://maps.app.goo.gl/mckJWfyNrZzHZDet6
 
 - title: 
   modal-id: 2
   img: traje.png
   thumbnail: traje.png
   options:
-    - description: Texto Traje 1
-      link: https://google.com/1
-    - description: Texto Traje 2
-      link: https://google.com/2
-
+    - description: Mulheres: vestido longo ou midi elegante. Recomendamos o uso de salto grossos pois a cerimônia será em um gramado. Evitar tons de vestido em branco, off-white ou semelhantes.
+    - description: Homens: terno completo (calça, paletó e gravata). Recomendamos o uso de sapatos sociais e ternos em cores médias ou escuras.
+    - description: Favor se atentar ao climatempo adicionado na seção "Local" nete site para melhor escolha das roupas.
+    
 - title: 
   modal-id: 3
   img: hospedagem.png
   thumbnail: hospedagem.png
   options:
-    - description: Texto Hospedagem 1
-      link: https://google.com/1
-    - description: Texto Hospedagem 2
-      link: https://google.com/2
-    - description: Texto Hospedagem 3
-      link: https://google.com/3
-    - description: Texto Hospedagem 4
-      link: https://google.com/4
+    - description: Pousada Lago da Serra - Ofenil (8 min de carro do local da cerimônia)
+      link: https://maps.app.goo.gl/vu5f833aJuC8vShi7
+    - description: Chalé Porto da Pedra (8 min de carro do local da cerimônia, entrar em contato com Daniela (65) 99680-5310)
+      link: https://maps.app.goo.gl/MqBFZfArMoJxohDM6
+    - description: Vitória Palace Hotel - Lavras (20 min de carro do local da cerimônia)
+      link: https://maps.app.goo.gl/fpdWNNPWNzBbYNY3A
+    - description: Hotel Ibis - Lavras (30 min de carro do local da cerimônia)
+      link: https://maps.app.goo.gl/1S3kokopVDWnxnFg8
+    - description: Recomendamos também procurar hospedagem em Airbnb ou Booking.com
 
 - title: 
   modal-id: 4
@@ -69,10 +69,10 @@
   img: restaurante.png
   thumbnail: restaurante.png
   options:
-    - description: Texto Restaurante 1
-      link: https://google.com/1
-    - description: Texto Restaurante 2
-      link: https://google.com/2
+    - description: Restaurante da Meirinha
+      link: https://maps.app.goo.gl/eSzv6LxZBsP1rzBW6
+    - description: Restaurante Espaço Lago da Serra - Ofenil
+      link: https://maps.app.goo.gl/TdpCbZMmF5sDU1CdA
     - description: Texto Restaurante 3
       link: https://google.com/3
     - description: Texto Restaurante 4
