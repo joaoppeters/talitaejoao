@@ -1,21 +1,21 @@
 - title: Camicado
   modal-id: 1
-  img: camicado.jpg
-  thumbnail: camicado.jpg
+  img: camicado.png
+  thumbnail: camicado.png
   drive: Camicado
   link: https://camicado.com.br
 
 - title: Magalu
   modal-id: 2
-  img: magalu.jpg
-  thumbnail: magalu.jpg
+  img: magalu.png
+  thumbnail: magalu.png
   drive: Magalu
   link: https://www.finalfeliz.de/talitaejoaopedropeters
 
 - title: Amazon
   modal-id: 3
-  img: amazon.jpg
-  thumbnail: amazon.jpg
+  img: amazon.png
+  thumbnail: amazon.png
   drive: Amazon
   link: https://amazon.com.br
   
