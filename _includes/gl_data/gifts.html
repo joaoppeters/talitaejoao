@@ -1,4 +1,4 @@
-<!-- Things To Do Section -->
+<!-- Gifts Section -->
 <section id="gifts">
     <div class="container">
         <div class="row">
@@ -19,8 +19,7 @@
                         <img src="/img/gifts/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>{{ post.title }}</h4>
-                        <p class="text-muted">{{ post.drive }}</p>
+                        <h4>{{ post.drive }}</h4> <!-- using drive instead of title -->
                     </div>
                 </div>
             {% endfor %}
@@ -28,31 +27,25 @@
     </div>
 </section>
 
-<!-- Modal -->
+<!-- Gifts Modals -->
 {% for post in site.data.gl.gifts %}
     <div id="giftsModal{{ post.modal-id }}" class="modal fade" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title">{{ post.title }}</h4>
+                    <h4 class="modal-title">{{ post.drive }}</h4> <!-- using drive instead of title -->
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <div class="modal-body">
                     <img src="/img/gifts/{{ post.img }}" class="img-responsive img-centered" alt="">
-                    {% if post.options %}
-                        {% for option in post.options %}
-                            <p>{{ option.description }}</p>
-                            <a href="{{ option.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
-                            <hr>
-                        {% endfor %}
-                    {% else %}
-                        <p>{{ post.description }}</p>
-                        {% if post.link %}
-                            <a href="{{ post.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
-                        {% endif %}
+                    <p>Clique no botão abaixo para acessar a sugestão:</p>
+                    {% if post.link %}
+                        <a href="{{ post.link }}" target="_blank" class="btn btn-primary">Ver mais</a>
                     {% endif %}
                 </div>
             </div>
         </div>
     </div>
 {% endfor %}
-
