@@ -791,70 +791,70 @@ aside.clients img {
 }
 
 section#bridal_party {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#events {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#flip {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#list {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#gifts {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#our_story {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#stay {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#portfolio {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#travel {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#venue {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -862,7 +862,7 @@ section#venue {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
