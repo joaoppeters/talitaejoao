@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="row">
-            {% for post in site.data.gl.gifts %}
+            {% for post in site.data.gl.portfolio %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -29,7 +29,7 @@
 </section>
 
 <!-- Modal -->
-{% for post in site.data.gl.gifts %}
+{% for post in site.data.gl.portfolio %}
     <div id="portfolioModal{{ post.modal-id }}" class="modal fade" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
