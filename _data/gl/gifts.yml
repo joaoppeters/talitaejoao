@@ -9,3 +9,41 @@
 - name: Liquidificador
   price: "200,00"
   image: /img/gift/magalu.jpg
+
+- name: Conjunto de Toalhas
+  price: "150,00"
+  image: /img/gift/camicado.jpg
+
+- name: Jogo de Panelas
+  price: "350,00"
+  image: /img/gift/amazon.jpg
+
+- name: Liquidificador
+  price: "200,00"
+  image: /img/gift/magalu.jpg
+
+  - name: Conjunto de Toalhas
+  price: "150,00"
+  image: /img/gift/camicado.jpg
+
+- name: Jogo de Panelas
+  price: "350,00"
+  image: /img/gift/amazon.jpg
+
+- name: Liquidificador
+  price: "200,00"
+  image: /img/gift/magalu.jpg
+
+
+- name: Conjunto de Toalhas
+  price: "150,00"
+  image: /img/gift/camicado.jpg
+
+- name: Jogo de Panelas
+  price: "350,00"
+  image: /img/gift/amazon.jpg
+
+- name: Liquidificador
+  price: "200,00"
+  image: /img/gift/magalu.jpg
+
