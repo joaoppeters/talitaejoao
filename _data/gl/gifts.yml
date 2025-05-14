@@ -22,7 +22,7 @@
   price: "200,00"
   image: /img/gift/magalu.jpg
 
-  - name: Conjunto de Toalhas
+- name: Conjunto de Toalhas
   price: "150,00"
   image: /img/gift/camicado.jpg
 
@@ -33,7 +33,6 @@
 - name: Liquidificador
   price: "200,00"
   image: /img/gift/magalu.jpg
-
 
 - name: Conjunto de Toalhas
   price: "150,00"
