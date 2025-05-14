@@ -1123,71 +1123,90 @@ body {
 }
 
 
-.gift-section {
-  padding: 60px 0;
-  background-color: #f9f9f9;
-}
-
 .gift-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
 }
 
-.gift-item {
-  background: #fff;
-  border-radius: 8px;
-  padding: 15px;
+.gift-card {
   width: 200px;
-  text-align: center;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: transform 0.2s;
+  overflow: hidden;
 }
 
-.gift-item:hover {
+.gift-card:hover {
   transform: scale(1.05);
 }
 
-.gift-item img {
+.gift-image-wrapper {
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gift-card img {
   max-width: 100%;
-  height: auto;
-  border-radius: 4px;
+  max-height: 100%;
+  object-fit: contain;
 }
 
-.price {
-  color: #555;
-  font-weight: bold;
-  margin-top: 10px;
+.gift-info {
+  padding: 10px;
+  text-align: center;
 }
 
-/* Modal Styles */
+.gift-name {
+  font-size: 16px;
+  margin: 0;
+}
+
+.gift-price {
+  font-size: 14px;
+  color: #888;
+}
+
+/* Modal Styling */
 .modal {
   display: none;
   position: fixed;
-  z-index: 1000;
+  z-index: 9999;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  overflow: auto;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .modal-content {
-  background-color: #fff;
   margin: 10% auto;
-  padding: 20px;
-  border-radius: 8px;
-  width: 80%;
+  padding: 20px 30px;
+  border-radius: 10px;
   max-width: 400px;
   text-align: center;
+  position: relative;
 }
 
 .close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #888;
+  font-size: 24px;
   cursor: pointer;
+}
+
+.pix-key-box {
+  margin-top: 10px;
+  background-color: #f3f3f3;
+  padding: 10px;
+  border-radius: 6px;
+  font-family: monospace;
 }

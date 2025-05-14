@@ -1,36 +1,45 @@
 <section id="gift-list" class="gift-section">
-  <div class="container">
+    <div class="container">
     <h2 class="section-title">Lista de Presentes</h2>
     <div class="gift-grid">
-      {% for gift in site.data.gl.gifts %}
-      <div class="gift-item" onclick="showPixModal('{{ gift.name }}', '{{ gift.price }}')">
-        <img src="{{ gift.image }}" alt="{{ gift.name }}">
-        <h3>{{ gift.name }}</h3>
-        <p class="price">R$ {{ gift.price }}</p>
-      </div>
-      {% endfor %}
+        {% for gift in site.data.gifts %}
+        <div class="gift-card" onclick="showPixModal('{{ gift.name }}', '{{ gift.price }}')">
+        <div class="gift-image-wrapper">
+            <img src="{{ gift.image }}" alt="{{ gift.name }}">
+        </div>
+        <div class="gift-info">
+            <h3 class="gift-name">{{ gift.name }}</h3>
+            <p class="gift-price">R$ {{ gift.price }}</p>
+        </div>
+        </div>
+        {% endfor %}
     </div>
-  </div>
+    </div>
 
-  <!-- Modal Pix -->
-  <div id="pixModal" class="modal">
+    <!-- Modal Pix -->
+    <div id="pixModal" class="modal">
     <div class="modal-content">
-      <span class="close" onclick="closePixModal()">&times;</span>
-      <h3>Obrigado por seu presente!</h3>
-      <p>Para presentear com <strong id="giftName"></strong> no valor de <strong id="giftPrice"></strong>, envie o valor via Pix para:</p>
-      <p><strong>Chave Pix:</strong> <span id="pixKey">chavepix@exemplo.com</span></p>
+        <span class="close" onclick="closePixModal()">&times;</span>
+        <h3>Obrigado por seu presente! 🎁</h3>
+        <p>
+        Para presentear com <strong id="giftName"></strong> no valor de <strong id="giftPrice"></strong>, envie o valor via Pix:
+        </p>
+        <div class="pix-key-box">
+        <strong>Chave Pix:</strong>
+        <div id="pixKey">chavepix@exemplo.com</div>
+        </div>
     </div>
-  </div>
+    </div>
 </section>
 
 <script>
-  function showPixModal(name, price) {
+    function showPixModal(name, price) {
     document.getElementById('giftName').textContent = name;
     document.getElementById('giftPrice').textContent = 'R$ ' + price;
     document.getElementById('pixModal').style.display = 'block';
-  }
+    }
 
-  function closePixModal() {
+    function closePixModal() {
     document.getElementById('pixModal').style.display = 'none';
-  }
+    }
 </script>
