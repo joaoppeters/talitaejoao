@@ -2,7 +2,7 @@
     <div class="container">
     <h2 class="section-title">Lista de Presentes</h2>
     <div class="gift-grid">
-        {% for gift in site.data.gifts %}
+        {% for gift in site.data.gl.gifts %}
         <div class="gift-card" onclick="showPixModal('{{ gift.name }}', '{{ gift.price }}')">
         <div class="gift-image-wrapper">
             <img src="{{ gift.image }}" alt="{{ gift.name }}">
