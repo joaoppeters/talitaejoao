@@ -798,14 +798,14 @@ section#bridal_party {
 }
 
 section#events {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/events.jpg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#flip {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/flip.jpg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
