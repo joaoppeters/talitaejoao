@@ -17,7 +17,9 @@
   img: traje.png
   thumbnail: traje.png
   options:
-    - description: Traje Esporte Fino. \nPara mulheres recomendamos o uso de vestido longo e de saltos grossos ou rasteirinhas pois a cerimônia será em um gramado. \nPara homens recomendamos o uso de paletó, sendo gravata opcional.
+    - description: Traje Esporte Fino. 
+        Para mulheres recomendamos o uso de vestido longo e de saltos grossos ou rasteirinhas pois a cerimônia será em um gramado. 
+        Para homens recomendamos o uso de paletó, sendo gravata opcional.
     
 - title: 
   modal-id: 3
