@@ -812,7 +812,7 @@ section#flip {
 }
 
 section#list {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/list.jpg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -826,7 +826,7 @@ section#gift-list {
 }
 
 section#our_story {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/ourstory.jpg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -840,7 +840,7 @@ section#stay {
 }
 
 section#portfolio {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/todo.jpg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -854,7 +854,7 @@ section#travel {
 }
 
 section#venue {
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/venue.jpg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -862,7 +862,7 @@ section#venue {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/backgrounds/fundo.jpeg');
+    background-image: url('{{ site.baseurl }}/img/backgrounds/contact.jpg');
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
