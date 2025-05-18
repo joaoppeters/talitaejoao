@@ -41,7 +41,9 @@
                     {% if post.options %}
                         {% for option in post.options %}
                             <p>{{ option.description }}</p>
-                            <a href="{{ option.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
+                            {% if option.link %}
+                                <a href="{{ option.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
+                            {% endif %}
                             <hr>
                         {% endfor %}
                     {% else %}
