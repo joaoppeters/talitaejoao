@@ -58,16 +58,31 @@
   img: salao.png
   thumbnail: salao.png
   options:
-    - description: Texto Salao 1
-      link: https://google.com/1
+    - description: Salão de Beleza Nieta Rodarte (Lavras)
+      link: https://www.instagram.com/nietarodarte/
+    - description: Salão da Julieta (Lavras)
+      link: https://www.instagram.com/salao_da_julieta/
+    - description: Essence Studio de Beleza (Ijaci)
+      link: https://www.instagram.com/essencestudio_ofc/
+    - description: Maquiadora Mari Torquete (Lavras)
+      link: https://www.instagram.com/maritorquete/
+    - description: Maquiadora Glaucia Terra (Lavras)
+      link: https://www.instagram.com/glauciaterramakeup/
+    - description: Maquiadora Liduina Oliveira (Ijaci)
+      link: https://www.instagram.com/liduinaoliveira_makeup/?hl=en
+
 
 - title: 
   modal-id: 6
   img: restaurante.png
   thumbnail: restaurante.png
   options:
-    - description: Restaurante da Meirinha
+    - description: Restaurante da Meirinha (Ijaci)
       link: https://maps.app.goo.gl/eSzv6LxZBsP1rzBW6
-    - description: Restaurante Espaço Lago da Serra - Ofenil
+    - description: Restaurante Espaço Lago da Serra - Ofenil (Ijaci)
       link: https://maps.app.goo.gl/TdpCbZMmF5sDU1CdA
+    - description: Restaurante K-nal (Lavras)
+      link: https://maps.app.goo.gl/8sjAUXxpJ64WuvY87
+    - description: Restaurante da Thais (Lavras)
+      link: https://maps.app.goo.gl/DLxsSX2TSJzTExYF9
 
