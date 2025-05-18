@@ -17,14 +17,14 @@
   img: traje.png
   thumbnail: traje.png
   options:
-    - description: Traje Esporte Fino. Para mulheres recomendamos o uso de vestido longo e de saltos grossos ou rasteirinhas pois a cerimônia será em um gramado. Para homens recomendamos o uso de paletó, sendo gravata opcional.
+    - description: Traje Esporte Fino. \nPara mulheres recomendamos o uso de vestido longo e de saltos grossos ou rasteirinhas pois a cerimônia será em um gramado. \nPara homens recomendamos o uso de paletó, sendo gravata opcional.
     
 - title: 
   modal-id: 3
   img: hospedagem.png
   thumbnail: hospedagem.png
   options:
-    - description: A cerimônia e a recepção serão realizadas em Ijaci, que possui opções limitadas de hospedagem. Por isso, indicamos abaixo algumas acomodações disponíveis tanto em Ijaci quanto em Lavras. Também sugerimos explorar outras alternativas em plataformas como Airbnb e Booking.com.
+    - description: A cerimônia e a recepção serão realizadas em Ijaci, que possui opções limitadas de hospedagem. \nPor isso, indicamos abaixo algumas acomodações disponíveis tanto em Ijaci quanto em Lavras. \nTambém sugerimos explorar outras alternativas em plataformas como Airbnb e Booking.com.
     - description: Chalé Porto da Pedra (Ijaci)
       link: https://linktr.ee/chaleporto
     - description: Kabana da Arquiteta (Ijaci)
@@ -47,10 +47,7 @@
   img: deslocamento.png
   thumbnail: deslocamento.png
   options:
-    - description: Texto Deslocamento 1
-      link: https://google.com/1
-    - description: Recomendamos ainda o uso de aplicativos de transporte como Uber ou 99 para locomoção entre a hospedagem e o local da cerimônia.
-      link: https://www.talitaejoao.com.br
+    - description: Disponibilizaremos contato de motoristas (carro ou van) para o deslocamento.
 
 - title: 
   modal-id: 5
