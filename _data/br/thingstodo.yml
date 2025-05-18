@@ -25,9 +25,7 @@
   img: hospedagem.png
   thumbnail: hospedagem.png
   options:
-    - description: A cerimônia e a recepção serão realizadas em Ijaci, que possui opções limitadas de hospedagem. 
-        Por isso, indicamos abaixo algumas acomodações disponíveis tanto em Ijaci quanto em Lavras. 
-        Também sugerimos explorar outras alternativas em plataformas como Airbnb e Booking.com.
+    - description: "A cerimônia e a recepção serão realizadas em Ijaci, que possui opções limitadas de hospedagem. <br>Por isso, indicamos abaixo algumas acomodações disponíveis tanto em Ijaci quanto em Lavras. <br>Também sugerimos explorar outras alternativas em plataformas como Airbnb e Booking.com."
     - description: Chalé Porto da Pedra (Ijaci)
       link: https://linktr.ee/chaleporto
     - description: Kabana da Arquiteta (Ijaci)
