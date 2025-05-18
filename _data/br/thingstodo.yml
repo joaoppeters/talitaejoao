@@ -3,14 +3,14 @@
   img: comochegar.png
   thumbnail: comochegar.png
   options:
-    - description: Aeroporto de Confins (o mais próximo de Lavras/Ijaci)
-      link: http://www.bh-airport.com.br/
-    - description: BH -> Lavras/Ijaci (3h30 de carro, 250km)
-      link: https://maps.app.goo.gl/Cey3gSYLNYRZcY4o6
-    - description: JF -> Lavras/Ijaci (4h de carro, 250km) 
-      link: https://maps.app.goo.gl/B5LrGh3LnpAC5dbQ8
-    - description: São Carlos -> Lavras/Ijaci (6h de carro, 420km)
-      link: https://maps.app.goo.gl/mckJWfyNrZzHZDet6
+    - description: Saindo de Belo Horizonte (3h, 220km)
+      link: https://maps.app.goo.gl/dFxhN4eAzgPymdgC8
+    - description: Saindo de Juiz de Fora (4h, 250km) 
+      link: https://maps.app.goo.gl/7Mri2bNghtMiJXy19
+    - description: Saindo de São Carlos (6h, 420km)
+      link: https://maps.app.goo.gl/2WxRT2CYXv6KqGsY9
+    - description: Saindo de Campinas (5h, 385km)
+      link: https://maps.app.goo.gl/HG6eUKBTqFa1nJBF7
 
 - title: 
   modal-id: 2
