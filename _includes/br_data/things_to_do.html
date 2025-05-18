@@ -40,14 +40,14 @@
                     <img src="/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="">
                     {% if post.options %}
                         {% for option in post.options %}
-                            <p>{{ option.description }}</p>
+                            <p>{{ option.description | markdownify }}</p>
                             {% if option.link %}
                                 <a href="{{ option.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
                             {% endif %}
                             <hr>
                         {% endfor %}
                     {% else %}
-                        <p>{{ post.description }}</p>
+                        <p>{{ post.description | markdownify }}</p>
                         {% if post.link %}
                             <a href="{{ post.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
                         {% endif %}
