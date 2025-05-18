@@ -24,16 +24,23 @@
   img: hospedagem.png
   thumbnail: hospedagem.png
   options:
-    - description: Pousada Lago da Serra - Ofenil (8 min de carro do local da cerimônia)
-      link: https://maps.app.goo.gl/vu5f833aJuC8vShi7
-    - description: Chalé Porto da Pedra (8 min de carro do local da cerimônia, entrar em contato com Daniela (65) 99680-5310)
-      link: https://maps.app.goo.gl/MqBFZfArMoJxohDM6
-    - description: Vitória Palace Hotel - Lavras (20 min de carro do local da cerimônia)
-      link: https://maps.app.goo.gl/fpdWNNPWNzBbYNY3A
-    - description: Hotel Ibis - Lavras (30 min de carro do local da cerimônia)
-      link: https://maps.app.goo.gl/1S3kokopVDWnxnFg8
-    - description: Recomendamos também procurar hospedagem em Airbnb ou Booking.com, na cidade de Lavras ou Ijaci.
-      link: https://www.airbnb.com.br 
+    - description: A cerimônia e a recepção serão realizadas em Ijaci, que possui opções limitadas de hospedagem. Por isso, indicamos abaixo algumas acomodações disponíveis tanto em Ijaci quanto em Lavras. Também sugerimos explorar outras alternativas em plataformas como Airbnb e Booking.com.
+    - description: Chalé Porto da Pedra (Ijaci)
+      link: https://linktr.ee/chaleporto
+    - description: Kabana da Arquiteta (Ijaci)
+      link: https://www.instagram.com/kabanadaarquiteta/
+    - description: Pousada Lago da Serra - Ofenil (Ijaci)
+      link: https://linktr.ee/ofenil
+    - description: Vitória Palace Hotel (Lavras)
+      link: https://linktr.ee/vitoriapalacelavras
+    - description: Serema Palace Hotel (Lavras)
+      link: https://seremapalacehotel.com.br
+    - description: Lavras Apart Hotel (Lavras)
+      link: https://beacons.ai/lavrasapart_
+    - description: Hotel Ouro Lavras (Lavras)
+      link: https://www.instagram.com/hotelourolavras/
+    - description: Hotel Ibis (Lavras)
+      link: https://linktr.ee/ibislavras
 
 - title: 
   modal-id: 4
