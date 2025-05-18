@@ -40,7 +40,7 @@
                     <img src="/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="">
                     {% if post.options %}
                         {% for option in post.options %}
-                            <p>{{ option.description | markdownify }}</p>
+                            <p style="text-align: justify; margin: 0 auto;">{{ option.description | markdownify }}</p>
                             {% if option.link %}
                                 <a href="{{ option.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
                             {% endif %}
