@@ -1,22 +1,14 @@
-- name:  
-  price:  
-  image: 
-
 - name: Amazon
-  price:
+  url: amazon.com.br
   image: /img/gift/amazon.jpg
 
 - name: Magalu
-  price: 
+  price: magalu.com.br
   image: /img/gift/magalu.jpg
 
 - name: Camicado
-  price: 
+  price: camicado.com.br
   image: /img/gift/camicado.jpg
-
-- name: 
-  price:
-  image:
 
 - name: Só pra não dizer que não dei nada \#ajudei 
   price: "50,02"
