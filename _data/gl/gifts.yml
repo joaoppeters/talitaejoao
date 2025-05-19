@@ -1,13 +1,13 @@
 - name: Amazon
-  url: amazon.com.br
+  url: https://amazon.com.br
   image: /img/gift/amazon.jpg
 
 - name: Magalu
-  price: magalu.com.br
+  url: https://magalu.com.br
   image: /img/gift/magalu.jpg
 
 - name: Camicado
-  price: camicado.com.br
+  url: https://camicado.com.br
   image: /img/gift/camicado.jpg
 
 - name: Só pra não dizer que não dei nada "#ajudei" 
