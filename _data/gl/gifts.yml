@@ -22,7 +22,7 @@
   price: "80,30"
   image: 
 
-- name: Aumentar em 20% a chance de pegar o buquê
+- name: Taxa para aumentar em 20% a chance de pegar o buquê
   price: "90,30"
   image: 
 
@@ -30,210 +30,98 @@
   price: "420,56"
   image: 
 
+- name: Ajude com o dia do noivo
+  price: "100,15"
+  image: 
+
 - name: Operação lua de mel
   price: "537,80"
   image: 
 
-- name: Pagar 1 ano de corte de cabelo para o noivo
-  price: "600,00"
-  image:
-
-- name: Ajude a esvaziar o carrinho da Shein da noiva
-  price: "200,00"
-  image:
-
 - name: Preferência na fila do buffet
-  price: "70,00"
+  price: "70,18"
   image: 
 
-- name: Cesta de café da manhã com itens de sobrevivência
-  price: "150,00"
-  image:
-
 - name: Garanta o jantar do noivo durante o 1º mês de casado
-  price: "300,00"
+  price: "180,00"
   image:
 
 - name: Cimento da cumplicidade – saco simbólico do amor
-  price: "90,00"
+  price: "50,06"
   image:
 
 - name: Projeto estrutural da paciência conjugal
-  price: "150,00"
+  price: "253,89"
   image:
 
 - name: Poste de iluminação do amor com sensor de presença
-  price: "220,00"
+  price: "486,49"
   image:
 
-- name: Aterramento emocional com DR – proteção contra surtos conjugais
-  price: "180,00"
-  image:
-
-- name: Tinta ruiva pro cabelo do noivo (Koleston da Ivete)
-  price: "90,00"
+- name: Koleston da Ivete para o cabelo do João
+  price: "157,63"
   image:
 
 - name: Rede oficial de vôlei de areia do casal
-  price: "400,00"
-  image:
-
-- name: Bola de vôlei com GPS – porque o amor também some às vezes
-  price: "250,00"
+  price: "689,99"
   image:
 
 - name: Pacote de trilhas até a paz conjugal (com guia e repelente)
-  price: "300,00"
-  image:
-
-- name: Workshop "montando móveis sem destruir o relacionamento"
-  price: "200,00"
+  price: "874,34"
   image:
 
 - name: Quadro de disjuntores do amor – para evitar curtos emocionais
-  price: "150,00"
+  price: "189,43"
   image:
 
 - name: Caixa de ferramentas do amor (inclui WD-40 para atritos)
-  price: "180,00"
-  image:
-
-- name: Assinatura “Amigos que apoiam mas não opinam” (plano anual)
-  price: "70,00"
-  image:
-
-- name: Vale asfalto – pavimentando o caminho do amor
-  price: "90,00"
-  image:
-
-- name: Capacete da tolerância – uso obrigatório em DRs e reformas
-  price: "130,00"
-  image:
-
-- name: Drone do amor – pra registrar e fiscalizar momentos especiais
-  price: "800,00"
-  image:
-
-- name: Medidor de resistência elétrica e emocional do casal
-  price: "160,00"
-  image:
-
-- name: Curso “explicando engenharia sem perder o cônjuge”
-  price: "250,00"
-  image:
-
-- name: Ração de trilheiro – para acampamentos que testam a união
-  price: "70,00"
-  image:
-
-- name: Plano de emergência pra falta de luz ou de paciência
-  price: "120,00"
-  image:
-
-- name: Parada técnica pra ver o jogo juntos sem treta
-  price: "100,00"
-  image:
-
-- name: Bola oficial do Campeonato Amoroso (versões indoor + beach)
-  price: "180,00"
-  image:
-
-- name: Kit sobrevivência “ap de 2 cômodos”
-  price: "200,00"
-  image:
-
-- name: Pacote “duas toalhas, um banheiro só” com manual de convivência
-  price: "110,00"
-  image:
-
-- name: Backup do buquê – evita tretas na hora do arremesso
-  price: "60,00"
-  image:
-
-- name: Sistema fotovoltaico simbólico – energia limpa pro casal
-  price: "1000,00"
-  image:
-
-- name: Financiamento simbólico do 1º churrasco na laje dos engenheiros
-  price: "400,00"
-  image:
-
-- name: Simulação de carga do sofá – resistência pós-maratonas de série
-  price: "140,00"
-  image:
-
-- name: Plano de contingência para visitas surpresa da sogra
-  price: "120,00"
-  image:
-
-- name: Kit tonalizante ruivo + hidratação anti-estresse
-  price: "150,00"
-  image:
-
-- name: Rota de fuga em trilha com retorno garantido
-  price: "200,00"
-  image:
-
-- name: Tatuagem temporária “sou casado(a), mas feliz” 
-  price: "60,00"
-  image:
-
-- name: Seguro contra reformas sem aviso prévio
-  price: "280,00"
+  price: "341,86"
   image:
 
 - name: Plano de manutenção do bom humor (revisões mensais)
-  price: "300,00"
-  image:
-
-- name: Mapa dos amigos com legenda (quem apoiar, quem evitar em DRs)
-  price: "100,00"
-  image:
+  price: "95,50"
+  image: 
 
 - name: Suporte técnico 24h (também conhecido como “liga pra um amigo”)
-  price: "150,00"
+  price: "63,89"
   image:
 
 - name: Patrocínio pro time de vôlei de quadra dos casados
-  price: "350,00"
-  image:
-
-- name: Upgrade do sofá modo cama ativado pra erros conjugais
-  price: "700,00"
-  image:
-
-- name: Aula de natação pra nadar na paciência do outro
-  price: "180,00"
+  price: "789,65"
   image:
 
 - name: Pista de dança improvisada pra dançar coladinho na sala
   price: "230,00"
   image:
 
-- name: Curso de culinária “não queime a comida do amor”
-  price: "200,00"
-  image:
-
-- name: Vale pizza – pra evitar a fome e as brigas
-  price: "80,00"
-  image:
-
-- name: Kit de primeiros socorros pra DRs – inclui curativos e chocolate
-  price: "90,00"
-  image:
-
-- name: Curso de sobrevivência em trilhas emocionais
-  price: "250,00"
-  image:
-
-- name: Vale presente simbólico pra comprar paciência
-  price: "100,00"
-  image:
-
-- name: Curso de marcenaria “construindo o amor”
-  price: "300,00"
+- name: Curso de culinária “não queime a comida do amor” para o João
+  price: "231,20"
   image:
 
 - name: Curso de filmagem e narração para os jogos do casal
-  price: "200,00"
+  price: "200,80"
+  image:
+
+- name: 1/10000 do capacete original do Ayrton Senna – velocidade no amor garantida
+  price: "302,14"
+  image: 
+
+- name: Relógio Original do Rubinho Barrichello - para não perder o horário
+  price: "2980,96"
+  image:
+
+- name: 1m2 da grama pisada pelo goleiro Fábio, no Mineirão
+  price: "105,63"
+  image:
+
+- name: Gota de suor simbólica do Giba (edição limitada, vôlei raiz)
+  price: "188,56"
+  image:
+
+- name: Relíquia não autenticada do esparadrapo do Oscar Schmidt
+  price: "130,02"
+  image:
+
+- name: Paciência pra Talita depois de ler a lista de presentes do João Pedro
+  price: "1008,98"
   image:
