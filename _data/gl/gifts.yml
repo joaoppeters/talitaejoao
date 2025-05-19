@@ -1,48 +1,247 @@
-- name: Conjunto de Toalhas
-  price: "150,00"
-  image: /img/gift/camicado.jpg
+- name:  
+  price:  
+  image: 
 
-- name: Jogo de Panelas
-  price: "350,00"
+- name: Amazon
+  price:
   image: /img/gift/amazon.jpg
 
-- name: Liquidificador
-  price: "200,00"
+- name: Magalu
+  price: 
   image: /img/gift/magalu.jpg
 
-- name: Conjunto de Toalhas
-  price: "150,00"
+- name: Camicado
+  price: 
   image: /img/gift/camicado.jpg
 
-- name: Jogo de Panelas
-  price: "350,00"
-  image: /img/gift/amazon.jpg
+- name: 
+  price:
+  image:
 
-- name: Liquidificador
+- name: Só pra não dizer que não dei nada \#ajudei 
+  price: "50,02"
+  image: 
+
+- name: Cobertor pra noiva sempre estar coberta de razão 
+  price: "120,00"
+  image: 
+
+- name: Taxa para a noiva não jogar o buquê na direção da sua namorada
+  price: "80,30"
+  image: 
+
+- name: Aumentar em 20% a chance de pegar o buquê
+  price: "90,30"
+  image: 
+
+- name: Ajude com o dia da noiva
+  price: "420,56"
+  image: 
+
+- name: Operação lua de mel
+  price: "537,80"
+  image: 
+
+- name: Pagar 1 ano de corte de cabelo para o noivo
+  price: "600,00"
+  image:
+
+- name: Ajude a esvaziar o carrinho da Shein da noiva
   price: "200,00"
-  image: /img/gift/magalu.jpg
+  image:
 
-- name: Conjunto de Toalhas
+- name: Preferência na fila do buffet
+  price: "70,00"
+  image: 
+
+- name: Cesta de café da manhã com itens de sobrevivência
   price: "150,00"
-  image: /img/gift/camicado.jpg
+  image:
 
-- name: Jogo de Panelas
-  price: "350,00"
-  image: /img/gift/amazon.jpg
+- name: Garanta o jantar do noivo durante o 1º mês de casado
+  price: "300,00"
+  image:
 
-- name: Liquidificador
-  price: "200,00"
-  image: /img/gift/magalu.jpg
+- name: Cimento da cumplicidade – saco simbólico do amor
+  price: "90,00"
+  image:
 
-- name: Conjunto de Toalhas
+- name: Projeto estrutural da paciência conjugal
   price: "150,00"
-  image: /img/gift/camicado.jpg
+  image:
 
-- name: Jogo de Panelas
-  price: "350,00"
-  image: /img/gift/amazon.jpg
+- name: Poste de iluminação do amor com sensor de presença
+  price: "220,00"
+  image:
 
-- name: Liquidificador
+- name: Aterramento emocional com DR – proteção contra surtos conjugais
+  price: "180,00"
+  image:
+
+- name: Tinta ruiva pro cabelo do noivo (Koleston da Ivete)
+  price: "90,00"
+  image:
+
+- name: Rede oficial de vôlei de areia do casal
+  price: "400,00"
+  image:
+
+- name: Bola de vôlei com GPS – porque o amor também some às vezes
+  price: "250,00"
+  image:
+
+- name: Pacote de trilhas até a paz conjugal (com guia e repelente)
+  price: "300,00"
+  image:
+
+- name: Workshop "montando móveis sem destruir o relacionamento"
   price: "200,00"
-  image: /img/gift/magalu.jpg
+  image:
 
+- name: Quadro de disjuntores do amor – para evitar curtos emocionais
+  price: "150,00"
+  image:
+
+- name: Caixa de ferramentas do amor (inclui WD-40 para atritos)
+  price: "180,00"
+  image:
+
+- name: Assinatura “Amigos que apoiam mas não opinam” (plano anual)
+  price: "70,00"
+  image:
+
+- name: Vale asfalto – pavimentando o caminho do amor
+  price: "90,00"
+  image:
+
+- name: Capacete da tolerância – uso obrigatório em DRs e reformas
+  price: "130,00"
+  image:
+
+- name: Drone do amor – pra registrar e fiscalizar momentos especiais
+  price: "800,00"
+  image:
+
+- name: Medidor de resistência elétrica e emocional do casal
+  price: "160,00"
+  image:
+
+- name: Curso “explicando engenharia sem perder o cônjuge”
+  price: "250,00"
+  image:
+
+- name: Ração de trilheiro – para acampamentos que testam a união
+  price: "70,00"
+  image:
+
+- name: Plano de emergência pra falta de luz ou de paciência
+  price: "120,00"
+  image:
+
+- name: Parada técnica pra ver o jogo juntos sem treta
+  price: "100,00"
+  image:
+
+- name: Bola oficial do Campeonato Amoroso (versões indoor + beach)
+  price: "180,00"
+  image:
+
+- name: Kit sobrevivência “ap de 2 cômodos”
+  price: "200,00"
+  image:
+
+- name: Pacote “duas toalhas, um banheiro só” com manual de convivência
+  price: "110,00"
+  image:
+
+- name: Backup do buquê – evita tretas na hora do arremesso
+  price: "60,00"
+  image:
+
+- name: Sistema fotovoltaico simbólico – energia limpa pro casal
+  price: "1000,00"
+  image:
+
+- name: Financiamento simbólico do 1º churrasco na laje dos engenheiros
+  price: "400,00"
+  image:
+
+- name: Simulação de carga do sofá – resistência pós-maratonas de série
+  price: "140,00"
+  image:
+
+- name: Plano de contingência para visitas surpresa da sogra
+  price: "120,00"
+  image:
+
+- name: Kit tonalizante ruivo + hidratação anti-estresse
+  price: "150,00"
+  image:
+
+- name: Rota de fuga em trilha com retorno garantido
+  price: "200,00"
+  image:
+
+- name: Tatuagem temporária “sou casado(a), mas feliz” 
+  price: "60,00"
+  image:
+
+- name: Seguro contra reformas sem aviso prévio
+  price: "280,00"
+  image:
+
+- name: Plano de manutenção do bom humor (revisões mensais)
+  price: "300,00"
+  image:
+
+- name: Mapa dos amigos com legenda (quem apoiar, quem evitar em DRs)
+  price: "100,00"
+  image:
+
+- name: Suporte técnico 24h (também conhecido como “liga pra um amigo”)
+  price: "150,00"
+  image:
+
+- name: Patrocínio pro time de vôlei de quadra dos casados
+  price: "350,00"
+  image:
+
+- name: Upgrade do sofá modo cama ativado pra erros conjugais
+  price: "700,00"
+  image:
+
+- name: Aula de natação pra nadar na paciência do outro
+  price: "180,00"
+  image:
+
+- name: Pista de dança improvisada pra dançar coladinho na sala
+  price: "230,00"
+  image:
+
+- name: Curso de culinária “não queime a comida do amor”
+  price: "200,00"
+  image:
+
+- name: Vale pizza – pra evitar a fome e as brigas
+  price: "80,00"
+  image:
+
+- name: Kit de primeiros socorros pra DRs – inclui curativos e chocolate
+  price: "90,00"
+  image:
+
+- name: Curso de sobrevivência em trilhas emocionais
+  price: "250,00"
+  image:
+
+- name: Vale presente simbólico pra comprar paciência
+  price: "100,00"
+  image:
+
+- name: Curso de marcenaria “construindo o amor”
+  price: "300,00"
+  image:
+
+- name: Curso de filmagem e narração para os jogos do casal
+  price: "200,00"
+  image:
