@@ -1,0 +1,111 @@
+- name: Só pra não dizer que não dei nada "#ajudei" 
+  price: "50,02"
+  image: /img/gift/ajudei.jpg
+
+- name: Cobertor pra noiva sempre estar coberta de razão 
+  price: "120,00"
+  image: /img/gift/coberta.jpg
+
+- name: Taxa para a noiva não jogar o buquê na direção da sua namorada
+  price: "80,30"
+  image: /img/gift/diminuirbuque.jpg
+
+- name: Taxa para aumentar em 20% a chance de pegar o buquê
+  price: "90,30"
+  image: /img/gift/aumentarbuque.jpg
+
+- name: Ajude com o dia da noiva
+  price: "420,56"
+  image: /img/gift/dianoiva.jpg
+
+- name: Ajude com o dia do noivo
+  price: "100,15"
+  image: /img/gift/dianoivo.jpg
+
+- name: Operação lua de mel
+  price: "537,80"
+  image: /img/gift/luademel.jpg
+
+- name: Preferência na fila do buffet
+  price: "70,18"
+  image: /img/gift/buffet.jpg
+
+- name: Garanta o jantar do noivo durante o 1º mês de casado
+  price: "180,00"
+  image: /img/gift/miojo.jpg
+
+- name: Cimento da cumplicidade (saco simbólico do amor)
+  price: "50,06"
+  image: /img/gift/cimento.jpg
+
+- name: Projeto estrutural da paciência conjugal
+  price: "253,89"
+  image: /img/gift/bim.jpg
+
+- name: Poste de iluminação do amor com sensor de presença
+  price: "486,49"
+  image: /img/gift/iluminacao.jpg
+
+- name: Koleston da Ivete para o cabelo do João
+  price: "157,63"
+  image: /img/gift/koleston.jpg
+
+- name: Rede oficial de vôlei de areia do casal
+  price: "689,99"
+  image: /img/gift/rede.jpg
+
+- name: Pacote de trilhas até a paz conjugal (com guia e repelente)
+  price: "874,34"
+  image: /img/gift/trilhas.jpg
+
+- name: Quadro de disjuntores do amor (para evitar curtos emocionais)
+  price: "189,43"
+  image: /img/gift/disjuntor.jpg
+
+- name: Caixa de ferramentas do amor (inclui WD-40 para atritos)
+  price: "341,86"
+  image: /img/gift/wd40.jpg
+
+- name: Plano de manutenção do bom humor (revisões mensais)
+  price: "95,50"
+  image: /img/gift/bomhumor.jpg
+
+- name: Suporte técnico 24h (também conhecido como “liga pra um amigo”)
+  price: "63,89"
+  image: /img/gift/suportetecnico.png
+
+- name: Patrocínio pro time de vôlei de quadra dos casados
+  price: "789,65"
+  image: /img/gift/patrocinio.jpg
+
+- name: Pista de dança improvisada pra dançar coladinho na sala
+  price: "230,00"
+  image: /img/gift/pistadanca.png
+
+- name: Curso de culinária “não queime a comida do amor” para o João
+  price: "231,20"
+  image: /img/gift/saltbae.jpg
+
+- name: Curso de filmagem e narração para os jogos do casal
+  price: "200,80"
+  image: /img/gift/filmagem.jpg
+
+- name: 1/10000 do capacete original do Ayrton Senna (velocidade no amor garantida)
+  price: "302,14"
+  image: /img/gift/ayrton.jpg
+
+- name: Relógio Original do Rubinho Barrichello (para não perder o horário)
+  price: "2980,96"
+  image: /img/gift/barrichello.jpg
+
+- name: Gota de suor simbólica do Giba (edição limitada, vôlei raiz)
+  price: "188,56"
+  image: /img/gift/giba.jpg
+
+- name: Kit de materiais elétricos antigos, bem conservados ("Tralha do João")
+  price: "130,02"
+  image: /img/gift/equipamentos.jpg
+
+- name: Paciência pra Talita depois de ler a lista de presentes do João Pedro
+  price: "1008,98"
+  image: /img/gift/paciencia.png
