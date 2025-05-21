@@ -1,15 +1,15 @@
 - name: Amazon
   url: https://www.amazon.com.br/hz/wishlist/ls/3S9LF4KLPR6QX?ref_=wl_share
-  image: /img/gift/amazon.png
+  image: /img/gift/amazon.jpg
 
 - name: Camicado
   url: https://lista.camicado.com.br/talitaejoaopedrop
-  image: /img/gift/camicado.png
+  image: /img/gift/camicado.jpg
 
 - name: LaVille
   url: https://presentes.lavillecasa.com.br/lista/talitaejoaopedro
-  image: /img/gift/laville.png
+  image: /img/gift/la_ville.png
 
 - name: Magalu
   url: https://www.querodecasamento.com.br/painel-de-controle/home
-  image: /img/gift/magalu.png
+  image: /img/gift/magalu.jpg
