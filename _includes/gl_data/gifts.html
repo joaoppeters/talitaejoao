@@ -1,29 +1,41 @@
 <section id="gift-list" class="gift-section">
   <div class="container">
-    <h2 class="section-title">Lista de Presentes</h2>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Lista de Presentes</h2>
+            <h3 class="section-subheading text-muted">Com opção de pagamento no cartão da forma como preferir. Isso nos gera créditos para escolher algo por lá ou receber o presente físico em casa.</h3>
+        </div>
+    </div>
     <div class="gift-grid">
-      {% for gift in site.data.gl.gifts %}
-        {% if gift.url %}
-          <a href="{{ gift.url }}" class="gift-card" target="_blank" rel="noopener noreferrer">
-            <div class="gift-image-wrapper">
-              <img src="{{ gift.image }}" alt="{{ gift.name }}">
-            </div>
-            <div class="gift-info">
-              <h3 class="gift-name">{{ gift.name }}</h3>
-              <p class="gift-price">Clique para acessar a lista</p>
-            </div>
-          </a>
-        {% elsif gift.price %}
-          <div class="gift-card" onclick="showPixModal('{{ gift.name }}', '{{ gift.price }}')">
-            <div class="gift-image-wrapper">
-              <img src="{{ gift.image }}" alt="{{ gift.name }}">
-            </div>
-            <div class="gift-info">
-              <h3 class="gift-name">{{ gift.name }}</h3>
-              <p class="gift-price">R$ {{ gift.price }}</p>
-            </div>
+      {% for gift in site.data.gl.gifts1 %}
+        <a href="{{ gift.url }}" class="gift-card" target="_blank" rel="noopener noreferrer">
+          <div class="gift-image-wrapper">
+            <img src="{{ gift.image }}" alt="{{ gift.name }}">
           </div>
-        {% endif %}
+          <div class="gift-info">
+            <h3 class="gift-name">{{ gift.name }}</h3>
+            <p class="gift-price">Clique para acessar a lista</p>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Lista de Presentes "Inusitados"</h2>
+            <h3 class="section-subheading text-muted">Com opção de pagamento via Pix, de forma simples e direta.</h3>
+        </div>
+    </div>
+    <div class="gift-grid">
+      {% for gift in site.data.gl.gifts2 %}
+      <div class="gift-card" onclick="showPixModal('{{ gift.name }}', '{{ gift.price }}')">
+          <div class="gift-image-wrapper">
+            <img src="{{ gift.image }}" alt="{{ gift.name }}">
+          </div>
+          <div class="gift-info">
+            <h3 class="gift-name">{{ gift.name }}</h3>
+            <p class="gift-price">R$ {{ gift.price }}</p>
+          </div>
+        </div>
       {% endfor %}
     </div>
   </div>
