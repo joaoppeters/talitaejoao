@@ -70,6 +70,10 @@
   price: "95,50"
   image: /img/gift/bomhumor.jpg
 
+- name: Detector de indiretaas para uso em ambiente doméstico
+  price: "213,13"
+  image: /img/gift/sensor.jpg
+
 - name: Suporte técnico 24h (também conhecido como “liga pra um amigo”)
   price: "63,89"
   image: /img/gift/suportetecnico.png
@@ -109,3 +113,7 @@
 - name: Paciência pra Talita depois de ler a lista de presentes do João Pedro
   price: "1008,98"
   image: /img/gift/paciencia.png
+
+- name: Vai do coração
+  price: "XX,XX"
+  image: /img/gift/docoracao.jpg
