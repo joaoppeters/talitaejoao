@@ -38,7 +38,7 @@ p.large {
 }
 
 p.largepad {
-    font-size: 20px;
+    font-size: 24px;
     padding-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
 }
