@@ -462,6 +462,15 @@ section h2.section-heading {
     color: #000000;
 }
 
+section h3.section-heading2 {
+    font-weight: normal;     /* remove negrito */
+    text-transform: none;    /* remove capslock */
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    /* color: #000000; */
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
