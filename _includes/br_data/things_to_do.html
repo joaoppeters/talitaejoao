@@ -4,13 +4,16 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">Indicações</h2>
-                <h3 class="section-subheading text-muted">Confira algumas das nossas indicações para que você aproveite ao máximo o nosso casamento!</h3>
+                <h3 class="section-subheading text-muted">
+                    Confira algumas das nossas indicações para que você aproveite ao máximo o nosso casamento!
+                </h3>
             </div>
         </div>
         <div class="row">
             {% for post in site.data.br.thingstodo %}
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                    <!-- Removi data-toggle="modal" e mudei href para # com data-target -->
+                    <a href="#" class="portfolio-link open-modal" data-target="#portfolioModal{{ post.modal-id }}">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -28,21 +31,22 @@
     </div>
 </section>
 
-<!-- Modal -->
+<!-- Modals -->
 {% for post in site.data.br.thingstodo %}
-    <div id="portfolioModal{{ post.modal-id }}" class="modal fade" tabindex="-1">
-        <div class="modal-dialog">
+    <div id="portfolioModal{{ post.modal-id }}" class="modal" style="display:none; position: fixed; top:0; left:0; width:100%; height:100%; overflow:auto; background-color: rgba(0,0,0,0.8); z-index: 1050;">
+        <div class="modal-dialog" style="margin: 50px auto; max-width: 700px; position: relative; background: white; padding: 20px; border-radius: 8px;">
             <div class="modal-content">
-                <div class="modal-header">
+                <div class="modal-header" style="display: flex; justify-content: space-between; align-items: center;">
                     <h4 class="modal-title">{{ post.title }}</h4>
+                    <span class="close-modal" style="cursor:pointer; font-size: 30px; font-weight: bold;">&times;</span>
                 </div>
                 <div class="modal-body">
-                    <img src="/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="">
+                    <img src="/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="" style="max-width: 100%; height: auto; margin-bottom: 15px;">
                     {% if post.options %}
                         {% for option in post.options %}
                             <p style="text-align: justify; margin: 0 auto;">{{ option.description | markdownify }}</p>
                             {% if option.link %}
-                                <a href="{{ option.link }}" target="_blank" class="btn btn-primary">Saiba Mais</a>
+                                <a href="{{ option.link }}" target="_blank" class="btn btn-primary" style="margin-bottom: 10px; display: inline-block;">Saiba Mais</a>
                             {% endif %}
                             <hr>
                         {% endfor %}
@@ -57,3 +61,34 @@
         </div>
     </div>
 {% endfor %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Abrir modais
+    document.querySelectorAll('.open-modal').forEach(button => {
+      button.addEventListener('click', e => {
+        e.preventDefault();
+        const targetSelector = button.getAttribute('data-target');
+        const modal = document.querySelector(targetSelector);
+        if (modal) modal.style.display = 'block';
+      });
+    });
+
+    // Fechar modais ao clicar no "×"
+    document.querySelectorAll('.close-modal').forEach(button => {
+      button.addEventListener('click', () => {
+        const modal = button.closest('.modal');
+        if (modal) modal.style.display = 'none';
+      });
+    });
+
+    // Fechar modal ao clicar fora do conteúdo
+    window.addEventListener('click', e => {
+      document.querySelectorAll('.modal').forEach(modal => {
+        if (e.target === modal) {
+          modal.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
