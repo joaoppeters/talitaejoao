@@ -23,7 +23,7 @@ description: "Site do nosso casamento."
 markdown: kramdown
 permalink: pretty
 
-include: ['br_pages', '_gl_pages']
+include: ['br_pages', '_gl_pages', '_easter_pages']
 
 # Plugins
 gems:

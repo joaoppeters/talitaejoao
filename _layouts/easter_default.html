@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+  {% include /easter_data/head.html %}
+
+    <body id="page-top" class="index">
+
+    {% include /easter_data/header.html %}
+    {% include /easter_data/our_story.html %}
+    {% include /easter_data/footer.html %}
+    {% include /easter_data/js.html %}
+    {% if jekyll.environment == 'production' %}
+        {% include analytics.html %}
+    {% endif %}
+
+    </body>
+</html>

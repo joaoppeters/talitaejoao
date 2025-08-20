@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .rowstory {
+          display: flex;
+          flex-wrap: wrap;
+          padding: 0 4px;
+        }
+
+        /* Create four equal columns that sits next to each other */
+        .columnstory {
+          flex: 25%;
+          max-width: 25%;
+          padding: 0 4px;
+        }
+
+        .columnstory img {
+          margin-top: 8px;
+          vertical-align: middle;
+          width: 100%;
+        }
+
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 800px) {
+          .columnstory {
+            flex: 50%;
+            max-width: 50%;
+          }
+        }
+
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .columnstory {
+            flex: 100%;
+            max-width: 100%;
+          }
+        }
+    </style>
+
+    <!-- Our Story Section -->
+    <section id="our_story" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Para Talita, com amor</h2>
+                </div>
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 text-center" >
+              <p class="largepad text-muted" style="text-align: justify; margin: 0 auto; ">
+                Achou mesmo que eu não ia preparar um easter egg nesse site, não é mesmo! Pois saiba que preparei essa surpresa só pra você!
+              <br>
+                Talita, mozim, mordimivida... eu até tenho palavras para descrever o quanto estou feliz no dia de hoje, mas se eu resolver colocar tudo aqui nesse texto é certeza que você vai ouvir meus votos duas vezes kkk
+              <br>
+                Mas a verdade é que estou tão feliz que não cabe no meu peito! O João de 2023 não imaginaria que estaria tão feliz em estar vivendo esse momento tão único com uma pessoa tão linda, amorosa, carinhosa e incrível como você!
+              <br>
+                Espero que tenha recebido as flores que mandei. Estou ansioso para começar a vida, crescer e viver toda a Eternidade ao seu lado! 
+              <br>
+              Você é benção na minha vida, te amo hoje e sempre!
+              </p>
+            </div>
+        </div>
+        <div class="rowstory">
+            <div class="columnstory">
+            	  <img src="/img/egg/0.jpeg">
+                <img src="/img/egg/4.jpeg">
+                <img src="/img/egg/8.jpeg">
+            </div>
+            <div class="columnstory">
+                <img src="/img/egg/1.jpeg">
+                <img src="/img/egg/5.jpeg">
+                <img src="/img/egg/9.jpeg">
+            </div>
+            <div class="columnstory">
+                <img src="/img/egg/2.jpeg">
+                <img src="/img/egg/6.jpeg">
+                <img src="/img/egg/10.jpeg">
+            </div>
+            <div class="columnstory">
+                <img src="/img/egg/3.jpeg">
+                <img src="/img/egg/7.jpeg">
+                <img src="/img/egg/11.jpeg">
+            </div>
+        </div>
+    </section>
+</html>
